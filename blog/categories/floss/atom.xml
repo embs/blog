@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categoria: Floss | Título do Blog]]></title>
+  <link href="http://embs.blog.br/blog/categories/floss/atom.xml" rel="self"/>
+  <link href="http://embs.blog.br/"/>
+  <updated>2014-03-20T15:40:14-03:00</updated>
+  <id>http://embs.blog.br/</id>
+  <author>
+    <name><![CDATA[embs]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Uma Introdução a Projetos De Código Livre E Aberto]]></title>
+    <link href="http://embs.blog.br/blog/2014/03/18/uma-introducao-a-projetos-de-codigo-livre-e-aberto/"/>
+    <updated>2014-03-18T22:33:20-03:00</updated>
+    <id>http://embs.blog.br/blog/2014/03/18/uma-introducao-a-projetos-de-codigo-livre-e-aberto</id>
+    <content type="html"><![CDATA[<p><strong>TL;DR</strong> Se você não quiser gastar tempo e / ou energia adicionais, uma introdução
+muito mais relevante (e citada mais adiante, nesta mesma postagem) é dada pelo
+texto <a href="http://www.catb.org/esr/writings/cathedral-bazaar/cathedral-bazaar/">The Cathedral and the Bazaar</a>,
+por Eric S. Raymond.</p>
+
+<p>Um (não tão) breve comentário sobre a filosofia por trás dos projetos de software
+de código livre e aberto. Detalhe sobre o contexto: o texto é, originalmente, uma
+postagem no fórum da disciplina de Seminários em Gerenciamento de Dados e Informação
+(aka Tecnologia, Lei e Sociedade ou Tecnologia e Convivência) e é datado de 11 de
+Março de 2014 (há uma semana).</p>
+
+<!-- more -->
+
+
+<p><em>Fiz alusão às ideias de Yochai Benkler em meu comentário no tópico de Sharing Economy, mencionando como alguns dos temas abordados no contexto da disciplina se relacionam (a saber, Tecnologias Cívicas, Open Data, Sharing Economy e Transparência na Era Digital &mdash; que foram os assuntos abordados por mim, Flávio, Augusto e Renato em nosso <a href="https://www.youtube.com/watch?v=ubU0g71fvXA">vídeo-debate</a>).</em></p>
+
+<p><em>Não é de se admirar que, além desses que citei, outros tópicos também tenham conexões entre si &mdash; já que pertencem à macro-categoria de Tecnologia, Lei e Sociedade, que dá nome à disciplina. Os pensamentos defendidos por Yochai carregam, além de vários outros, fundamentos do crowdsourcing &mdash; que é, também, tópico de uma das sessões.</em></p>
+
+<p><em>Em suas obras, o ser senciente logra êxito ao desbravar o até então pouco conhecido mundo cibernético &mdash; que em muito se baseia em protocolos abertos de livre utilização / modificação e construção colaborativa através do esforço de milhares de pessoas de todo o planeta. Em seu livro de 2006, O Pinguim e o Leviatã, Benkler utiliza o mais patente caso de como a colaboração espontânea e altruísta pode se sobrepor aos interesses individuais egocentristas e, assim, construir melhores equipes, software, protocolos e, de maneira bastante ampla, tecnologias em geral.</em></p>
+
+<p><em>O exemplo que inspira a capa do livro é só um de tantos outros projetos livres e de código aberto que abriram precedente para a discussão acerca da dicotomia de um modelo de desenvolvimento de software realizado por alguns poucos peritos e outro &mdash; assaz divergente &mdash; em que o código é construído colaborativamente por pessoas de todos os lugares que possivelmente nem ao menos se conhecem.</em></p>
+
+<p><em>Quem teve a oportunidade de assistir às aulas da disciplina de FLOSS (Free and Open Source Software), ministrada pelo professor Fernando Castor, já sabe do que estou tratando. A divergência entre esses modelos dotados de características diametralmente opostas se tornou de conhecimento público principalmente após a publicação do artigo <a href="http://www.catb.org/esr/writings/cathedral-bazaar/cathedral-bazaar/">The Cathedral and the Baazar</a>, por Eric S. Raymond (também conhecido por suas iniciais, ESR).</em></p>
+
+<p><em>Em seu texto, ESR expõe sua opinião a respeito de como o Linux conseguiu aquilo que todos (inclusive ele próprio) supunham inalcançável: construir algo tão complexo quanto um sistema operacional através da colaboração, em um projeto que aparentemente não dispunha de uma gestão adequada &mdash; gestão tal que seria impossível devido às condições de execução. O autor também publica mais frequentemente em seu <a href="http://esr.ibiblio.org/">blog</a> e, <a href="http://beta.slashdot.org/story/199209">nesta sessão de perguntas e respostas</a> (datada de ontem), ele responde a vários questionamentos pertinentes ao tema &mdash; inclusive o que mudou depois de quase 20 anos da publicação do The Cathedral and the Baazar.</em></p>
+
+<p><em>Trazendo as ideias e ideais expostos por ESR e defendidos por Benkler para o nosso contexto, dois colegas do Centro de Informática publicaram, há pouco tempo, um estudo sobre o desenvolvimento de projetos de código aberto e afins no Brasil &mdash; no trabalho intitulado <a href="http://t.co/Bos4oeGJhC">The Census of the Brazilian Open-Source Community</a>, por Gustavo Pinto e Fernando Kamei.</em></p>
+
+<p><em>O tópico dá margem para uma discussão prolífica e projetos FLOSS são, por si só, um assunto ainda a ser amplamente estudado e adotado pelos alunos do centro. O envolvimento com um projeto grande desse tipo é uma ótima oportunidade de adquirir habilidades pessoais e profissionais nas mais diversas áreas. Indico a disciplina de Desenvolvimento de de Software de Código Aberto/Livre (FLOSS, ministrada por Castor) que, inclusive, foi palco para uma das palestras do professor Ruy sobre as ideias de Yochai Benkler na edição em que paguei a disciplina.</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Redu + Open Source = Open Redu]]></title>
+    <link href="http://embs.blog.br/blog/2014/03/18/redu-plus-open-source-equals-open-redu/"/>
+    <updated>2014-03-18T18:31:19-03:00</updated>
+    <id>http://embs.blog.br/blog/2014/03/18/redu-plus-open-source-equals-open-redu</id>
+    <content type="html"><![CDATA[<p>Fiquei muito contente ao saber, há algum tempo, que o <a href="http://developers.redu.com.br/">Redu</a>
+abriria seu código. A decisão de transformar o código, até então proprietário,
+em software livre e de código aberto (ou <a href="https://en.wikipedia.org/wiki/Free_and_open_source_software">FLOSS</a>,
+do inglês, <strong>F</strong>ree / <strong>L</strong>ibre and <strong>O</strong>pen-<strong>S</strong>ource <strong>S</strong>oftware) pode parecer
+um tanto controversa e bastante contra-intuitiva, se analisado o modelo de negócio
+que o Redu se propunha incialmente. No entanto, se pensarmos com mais profundidade
+sobre o que é o Redu e quais as consequências da abertura dó código, poderemos
+descobrir por que abrir o código faz todo sentido.</p>
+
+<!-- more -->
+
+
+<p>O Redu é uma plataforma para ensino à distância que possui elementos de rede social
+&mdash; com vistas à facilitação e à suplementação das atividades de ensino. Desenvolvido
+majoritariamente com Ruby on Rails, o projeto nasceu no Centro de Informática da
+UFPE, conduzido inicialmente por um núcleo de estudantes sob mentoria do professor
+<a href="http://cin.ufpe.br/~asg/">Alex Sandro Gomes</a>.</p>
+
+<p>A equipe cresceu (junto com o projeto) e foi incubada na Cais do Porto, incubadora
+do <a href="http://www.portodigital.org/">Porto Digital</a>, no Recife. Foi lá que &mdash; depois
+de ter ficado curioso sobre o projeto, que me foi apresentado durante uma das aulas
+do professor Alex Sandro &mdash; tive a experiência acadêmica / profissional mais proveitosa
+desde o meu ingresso na UFPE.</p>
+
+<p>Passei um ano em convívio quase que diário com pessoas mais espertas, bonitas e
+divertidas que eu &mdash; e, é claro, como bom sertanejo que sou, aproveitei isso o
+máximo que pude. Minha mentalidade e atitude quanto às formas de realizar atividades
+cotidianas de um desenvolvedor de software (ou criador de soluções com base em
+tegnologias digitais) foram completamente trasformadas &mdash; da água para o vinho ou,
+para fazer uma analogia mais apropriada ao contexto, do Windows para o Linux.</p>
+
+<p>Foi também durante este proveitoso período que tive oportunidade de participar das
+aulas de uma das disciplinas mais legais oferecidas no centro: Tópicos Avançados
+em Linguagens Computacionais (aka FLOSS ou <a href="https://sites.google.com/a/cin.ufpe.br/floss/">Desenvolvimento de Software de Código Aberto / Livre</a>), ministrada pelo professor <a href="http://www.cin.ufpe.br/~fjclf">Fernando Castor</a>.</p>
+
+<p>A disciplina conta com atividades que estimulam o envolvimento dos participantes em
+projetos FLOSS &mdash; além de conteúdo relevante no que concerne a gerenciamento de
+projetos open source, licenciamento de projetos afins e outras questões associadas.
+Descobri &mdash; àquela época &mdash; que compartilhava mais coisas com <a href="https://www.google.com.br/search?q=richard+stallman">Richard M. Stallman</a>
+além de uma barba horrenda e o nome do meio.</p>
+
+<p>Tecnologia, por definição, não deve ser vista como o fim &mdash; mas como o meio. A
+prática capitalista agressiva que visa lucro acima de tudo defende a monetização
+a partir de tudo e de todos mas projetos FLOSS grandes (como Linux, git, LaTeX e
+tantos outros) mostram que o rendimento financeiro nem sempre figura como principal
+motivação para desenvolvimento de software de qualidade.</p>
+
+<p>Seguindo essa linha de raciocínio, não é preciso muito esforço para trazer à tona
+a ligação intrínseca que existe entre a filosofia do pensamento reduniano (isto é,
+relativo ao Redu) de potencialização do talento das pessoas e a dos preceitos do
+FLOSS &mdash; de abertura, colaboração e crescimento mutual (comunidade + projeto).</p>
+
+<p>As desveladas linhas deste singelo texto depõem minha mais sincera e veemente
+empolgação. Estou certo de que o Redu e sua nova comunidade têm um promissor
+caminho a trilhar e espero participar dele da maneira que for mais valiosa para
+o nosso crescimento!</p>
+
+<p>\o/</p>
+
+<p>P.S.: um terno e carinhoso abraço aos meus queridos amigos redunianos Guila, Déds,
+Tiago, Jubs, Sérgio, Tacsio, Wandj, Varjão, Bruno(s), Jess, Thaís e todos com quem
+eu tive o prazer de aprender tanto. Hands on!</p>
+]]></content>
+  </entry>
+  
+</feed>

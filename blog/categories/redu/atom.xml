@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categoria: Redu | Título do Blog]]></title>
+  <link href="http://embs.blog.br/blog/categories/redu/atom.xml" rel="self"/>
+  <link href="http://embs.blog.br/"/>
+  <updated>2014-03-20T15:40:14-03:00</updated>
+  <id>http://embs.blog.br/</id>
+  <author>
+    <name><![CDATA[embs]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Redu + Open Source = Open Redu]]></title>
+    <link href="http://embs.blog.br/blog/2014/03/18/redu-plus-open-source-equals-open-redu/"/>
+    <updated>2014-03-18T18:31:19-03:00</updated>
+    <id>http://embs.blog.br/blog/2014/03/18/redu-plus-open-source-equals-open-redu</id>
+    <content type="html"><![CDATA[<p>Fiquei muito contente ao saber, há algum tempo, que o <a href="http://developers.redu.com.br/">Redu</a>
+abriria seu código. A decisão de transformar o código, até então proprietário,
+em software livre e de código aberto (ou <a href="https://en.wikipedia.org/wiki/Free_and_open_source_software">FLOSS</a>,
+do inglês, <strong>F</strong>ree / <strong>L</strong>ibre and <strong>O</strong>pen-<strong>S</strong>ource <strong>S</strong>oftware) pode parecer
+um tanto controversa e bastante contra-intuitiva, se analisado o modelo de negócio
+que o Redu se propunha incialmente. No entanto, se pensarmos com mais profundidade
+sobre o que é o Redu e quais as consequências da abertura dó código, poderemos
+descobrir por que abrir o código faz todo sentido.</p>
+
+<!-- more -->
+
+
+<p>O Redu é uma plataforma para ensino à distância que possui elementos de rede social
+&mdash; com vistas à facilitação e à suplementação das atividades de ensino. Desenvolvido
+majoritariamente com Ruby on Rails, o projeto nasceu no Centro de Informática da
+UFPE, conduzido inicialmente por um núcleo de estudantes sob mentoria do professor
+<a href="http://cin.ufpe.br/~asg/">Alex Sandro Gomes</a>.</p>
+
+<p>A equipe cresceu (junto com o projeto) e foi incubada na Cais do Porto, incubadora
+do <a href="http://www.portodigital.org/">Porto Digital</a>, no Recife. Foi lá que &mdash; depois
+de ter ficado curioso sobre o projeto, que me foi apresentado durante uma das aulas
+do professor Alex Sandro &mdash; tive a experiência acadêmica / profissional mais proveitosa
+desde o meu ingresso na UFPE.</p>
+
+<p>Passei um ano em convívio quase que diário com pessoas mais espertas, bonitas e
+divertidas que eu &mdash; e, é claro, como bom sertanejo que sou, aproveitei isso o
+máximo que pude. Minha mentalidade e atitude quanto às formas de realizar atividades
+cotidianas de um desenvolvedor de software (ou criador de soluções com base em
+tegnologias digitais) foram completamente trasformadas &mdash; da água para o vinho ou,
+para fazer uma analogia mais apropriada ao contexto, do Windows para o Linux.</p>
+
+<p>Foi também durante este proveitoso período que tive oportunidade de participar das
+aulas de uma das disciplinas mais legais oferecidas no centro: Tópicos Avançados
+em Linguagens Computacionais (aka FLOSS ou <a href="https://sites.google.com/a/cin.ufpe.br/floss/">Desenvolvimento de Software de Código Aberto / Livre</a>), ministrada pelo professor <a href="http://www.cin.ufpe.br/~fjclf">Fernando Castor</a>.</p>
+
+<p>A disciplina conta com atividades que estimulam o envolvimento dos participantes em
+projetos FLOSS &mdash; além de conteúdo relevante no que concerne a gerenciamento de
+projetos open source, licenciamento de projetos afins e outras questões associadas.
+Descobri &mdash; àquela época &mdash; que compartilhava mais coisas com <a href="https://www.google.com.br/search?q=richard+stallman">Richard M. Stallman</a>
+além de uma barba horrenda e o nome do meio.</p>
+
+<p>Tecnologia, por definição, não deve ser vista como o fim &mdash; mas como o meio. A
+prática capitalista agressiva que visa lucro acima de tudo defende a monetização
+a partir de tudo e de todos mas projetos FLOSS grandes (como Linux, git, LaTeX e
+tantos outros) mostram que o rendimento financeiro nem sempre figura como principal
+motivação para desenvolvimento de software de qualidade.</p>
+
+<p>Seguindo essa linha de raciocínio, não é preciso muito esforço para trazer à tona
+a ligação intrínseca que existe entre a filosofia do pensamento reduniano (isto é,
+relativo ao Redu) de potencialização do talento das pessoas e a dos preceitos do
+FLOSS &mdash; de abertura, colaboração e crescimento mutual (comunidade + projeto).</p>
+
+<p>As desveladas linhas deste singelo texto depõem minha mais sincera e veemente
+empolgação. Estou certo de que o Redu e sua nova comunidade têm um promissor
+caminho a trilhar e espero participar dele da maneira que for mais valiosa para
+o nosso crescimento!</p>
+
+<p>\o/</p>
+
+<p>P.S.: um terno e carinhoso abraço aos meus queridos amigos redunianos Guila, Déds,
+Tiago, Jubs, Sérgio, Tacsio, Wandj, Varjão, Bruno(s), Jess, Thaís e todos com quem
+eu tive o prazer de aprender tanto. Hands on!</p>
+]]></content>
+  </entry>
+  
+</feed>

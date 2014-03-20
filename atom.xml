@@ -1,0 +1,1267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Título do Blog]]></title>
+  <link href="http://embs.blog.br/atom.xml" rel="self"/>
+  <link href="http://embs.blog.br/"/>
+  <updated>2014-03-20T15:40:14-03:00</updated>
+  <id>http://embs.blog.br/</id>
+  <author>
+    <name><![CDATA[embs]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Uma Introdução a Projetos De Código Livre E Aberto]]></title>
+    <link href="http://embs.blog.br/blog/2014/03/18/uma-introducao-a-projetos-de-codigo-livre-e-aberto/"/>
+    <updated>2014-03-18T22:33:20-03:00</updated>
+    <id>http://embs.blog.br/blog/2014/03/18/uma-introducao-a-projetos-de-codigo-livre-e-aberto</id>
+    <content type="html"><![CDATA[<p><strong>TL;DR</strong> Se você não quiser gastar tempo e / ou energia adicionais, uma introdução
+muito mais relevante (e citada mais adiante, nesta mesma postagem) é dada pelo
+texto <a href="http://www.catb.org/esr/writings/cathedral-bazaar/cathedral-bazaar/">The Cathedral and the Bazaar</a>,
+por Eric S. Raymond.</p>
+
+<p>Um (não tão) breve comentário sobre a filosofia por trás dos projetos de software
+de código livre e aberto. Detalhe sobre o contexto: o texto é, originalmente, uma
+postagem no fórum da disciplina de Seminários em Gerenciamento de Dados e Informação
+(aka Tecnologia, Lei e Sociedade ou Tecnologia e Convivência) e é datado de 11 de
+Março de 2014 (há uma semana).</p>
+
+<!-- more -->
+
+
+<p><em>Fiz alusão às ideias de Yochai Benkler em meu comentário no tópico de Sharing Economy, mencionando como alguns dos temas abordados no contexto da disciplina se relacionam (a saber, Tecnologias Cívicas, Open Data, Sharing Economy e Transparência na Era Digital &mdash; que foram os assuntos abordados por mim, Flávio, Augusto e Renato em nosso <a href="https://www.youtube.com/watch?v=ubU0g71fvXA">vídeo-debate</a>).</em></p>
+
+<p><em>Não é de se admirar que, além desses que citei, outros tópicos também tenham conexões entre si &mdash; já que pertencem à macro-categoria de Tecnologia, Lei e Sociedade, que dá nome à disciplina. Os pensamentos defendidos por Yochai carregam, além de vários outros, fundamentos do crowdsourcing &mdash; que é, também, tópico de uma das sessões.</em></p>
+
+<p><em>Em suas obras, o ser senciente logra êxito ao desbravar o até então pouco conhecido mundo cibernético &mdash; que em muito se baseia em protocolos abertos de livre utilização / modificação e construção colaborativa através do esforço de milhares de pessoas de todo o planeta. Em seu livro de 2006, O Pinguim e o Leviatã, Benkler utiliza o mais patente caso de como a colaboração espontânea e altruísta pode se sobrepor aos interesses individuais egocentristas e, assim, construir melhores equipes, software, protocolos e, de maneira bastante ampla, tecnologias em geral.</em></p>
+
+<p><em>O exemplo que inspira a capa do livro é só um de tantos outros projetos livres e de código aberto que abriram precedente para a discussão acerca da dicotomia de um modelo de desenvolvimento de software realizado por alguns poucos peritos e outro &mdash; assaz divergente &mdash; em que o código é construído colaborativamente por pessoas de todos os lugares que possivelmente nem ao menos se conhecem.</em></p>
+
+<p><em>Quem teve a oportunidade de assistir às aulas da disciplina de FLOSS (Free and Open Source Software), ministrada pelo professor Fernando Castor, já sabe do que estou tratando. A divergência entre esses modelos dotados de características diametralmente opostas se tornou de conhecimento público principalmente após a publicação do artigo <a href="http://www.catb.org/esr/writings/cathedral-bazaar/cathedral-bazaar/">The Cathedral and the Baazar</a>, por Eric S. Raymond (também conhecido por suas iniciais, ESR).</em></p>
+
+<p><em>Em seu texto, ESR expõe sua opinião a respeito de como o Linux conseguiu aquilo que todos (inclusive ele próprio) supunham inalcançável: construir algo tão complexo quanto um sistema operacional através da colaboração, em um projeto que aparentemente não dispunha de uma gestão adequada &mdash; gestão tal que seria impossível devido às condições de execução. O autor também publica mais frequentemente em seu <a href="http://esr.ibiblio.org/">blog</a> e, <a href="http://beta.slashdot.org/story/199209">nesta sessão de perguntas e respostas</a> (datada de ontem), ele responde a vários questionamentos pertinentes ao tema &mdash; inclusive o que mudou depois de quase 20 anos da publicação do The Cathedral and the Baazar.</em></p>
+
+<p><em>Trazendo as ideias e ideais expostos por ESR e defendidos por Benkler para o nosso contexto, dois colegas do Centro de Informática publicaram, há pouco tempo, um estudo sobre o desenvolvimento de projetos de código aberto e afins no Brasil &mdash; no trabalho intitulado <a href="http://t.co/Bos4oeGJhC">The Census of the Brazilian Open-Source Community</a>, por Gustavo Pinto e Fernando Kamei.</em></p>
+
+<p><em>O tópico dá margem para uma discussão prolífica e projetos FLOSS são, por si só, um assunto ainda a ser amplamente estudado e adotado pelos alunos do centro. O envolvimento com um projeto grande desse tipo é uma ótima oportunidade de adquirir habilidades pessoais e profissionais nas mais diversas áreas. Indico a disciplina de Desenvolvimento de de Software de Código Aberto/Livre (FLOSS, ministrada por Castor) que, inclusive, foi palco para uma das palestras do professor Ruy sobre as ideias de Yochai Benkler na edição em que paguei a disciplina.</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Redu + Open Source = Open Redu]]></title>
+    <link href="http://embs.blog.br/blog/2014/03/18/redu-plus-open-source-equals-open-redu/"/>
+    <updated>2014-03-18T18:31:19-03:00</updated>
+    <id>http://embs.blog.br/blog/2014/03/18/redu-plus-open-source-equals-open-redu</id>
+    <content type="html"><![CDATA[<p>Fiquei muito contente ao saber, há algum tempo, que o <a href="http://developers.redu.com.br/">Redu</a>
+abriria seu código. A decisão de transformar o código, até então proprietário,
+em software livre e de código aberto (ou <a href="https://en.wikipedia.org/wiki/Free_and_open_source_software">FLOSS</a>,
+do inglês, <strong>F</strong>ree / <strong>L</strong>ibre and <strong>O</strong>pen-<strong>S</strong>ource <strong>S</strong>oftware) pode parecer
+um tanto controversa e bastante contra-intuitiva, se analisado o modelo de negócio
+que o Redu se propunha incialmente. No entanto, se pensarmos com mais profundidade
+sobre o que é o Redu e quais as consequências da abertura dó código, poderemos
+descobrir por que abrir o código faz todo sentido.</p>
+
+<!-- more -->
+
+
+<p>O Redu é uma plataforma para ensino à distância que possui elementos de rede social
+&mdash; com vistas à facilitação e à suplementação das atividades de ensino. Desenvolvido
+majoritariamente com Ruby on Rails, o projeto nasceu no Centro de Informática da
+UFPE, conduzido inicialmente por um núcleo de estudantes sob mentoria do professor
+<a href="http://cin.ufpe.br/~asg/">Alex Sandro Gomes</a>.</p>
+
+<p>A equipe cresceu (junto com o projeto) e foi incubada na Cais do Porto, incubadora
+do <a href="http://www.portodigital.org/">Porto Digital</a>, no Recife. Foi lá que &mdash; depois
+de ter ficado curioso sobre o projeto, que me foi apresentado durante uma das aulas
+do professor Alex Sandro &mdash; tive a experiência acadêmica / profissional mais proveitosa
+desde o meu ingresso na UFPE.</p>
+
+<p>Passei um ano em convívio quase que diário com pessoas mais espertas, bonitas e
+divertidas que eu &mdash; e, é claro, como bom sertanejo que sou, aproveitei isso o
+máximo que pude. Minha mentalidade e atitude quanto às formas de realizar atividades
+cotidianas de um desenvolvedor de software (ou criador de soluções com base em
+tegnologias digitais) foram completamente trasformadas &mdash; da água para o vinho ou,
+para fazer uma analogia mais apropriada ao contexto, do Windows para o Linux.</p>
+
+<p>Foi também durante este proveitoso período que tive oportunidade de participar das
+aulas de uma das disciplinas mais legais oferecidas no centro: Tópicos Avançados
+em Linguagens Computacionais (aka FLOSS ou <a href="https://sites.google.com/a/cin.ufpe.br/floss/">Desenvolvimento de Software de Código Aberto / Livre</a>), ministrada pelo professor <a href="http://www.cin.ufpe.br/~fjclf">Fernando Castor</a>.</p>
+
+<p>A disciplina conta com atividades que estimulam o envolvimento dos participantes em
+projetos FLOSS &mdash; além de conteúdo relevante no que concerne a gerenciamento de
+projetos open source, licenciamento de projetos afins e outras questões associadas.
+Descobri &mdash; àquela época &mdash; que compartilhava mais coisas com <a href="https://www.google.com.br/search?q=richard+stallman">Richard M. Stallman</a>
+além de uma barba horrenda e o nome do meio.</p>
+
+<p>Tecnologia, por definição, não deve ser vista como o fim &mdash; mas como o meio. A
+prática capitalista agressiva que visa lucro acima de tudo defende a monetização
+a partir de tudo e de todos mas projetos FLOSS grandes (como Linux, git, LaTeX e
+tantos outros) mostram que o rendimento financeiro nem sempre figura como principal
+motivação para desenvolvimento de software de qualidade.</p>
+
+<p>Seguindo essa linha de raciocínio, não é preciso muito esforço para trazer à tona
+a ligação intrínseca que existe entre a filosofia do pensamento reduniano (isto é,
+relativo ao Redu) de potencialização do talento das pessoas e a dos preceitos do
+FLOSS &mdash; de abertura, colaboração e crescimento mutual (comunidade + projeto).</p>
+
+<p>As desveladas linhas deste singelo texto depõem minha mais sincera e veemente
+empolgação. Estou certo de que o Redu e sua nova comunidade têm um promissor
+caminho a trilhar e espero participar dele da maneira que for mais valiosa para
+o nosso crescimento!</p>
+
+<p>\o/</p>
+
+<p>P.S.: um terno e carinhoso abraço aos meus queridos amigos redunianos Guila, Déds,
+Tiago, Jubs, Sérgio, Tacsio, Wandj, Varjão, Bruno(s), Jess, Thaís e todos com quem
+eu tive o prazer de aprender tanto. Hands on!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Pro Inferno Com Configuração De Ambiente De Desenvolvimento!]]></title>
+    <link href="http://embs.blog.br/blog/2014/01/21/pro-inferno-com-configuracao-de-ambiente-de-desenvolvimento/"/>
+    <updated>2014-01-21T20:03:45-03:00</updated>
+    <id>http://embs.blog.br/blog/2014/01/21/pro-inferno-com-configuracao-de-ambiente-de-desenvolvimento</id>
+    <content type="html"><![CDATA[<p><strong>TL;DR</strong> <a href="http://nitrous.io">http://nitrous.io</a></p>
+
+<p>A labuta pra configurar um ambiente de desenvolvimento RoR com sucesso não é de
+hoje: <a href="https://gist.github.com/guiocavalcanti/1600711">gist</a> de <a href="https://github.com/guiocavalcanti">Guila</a>,
+<a href="https://gist.github.com/embs/3614398">gist meu</a> (forkado do de Guila :B),
+<a href="http://embs.blog.br/2013/02/06/configurando-ambiente-de-desenvolvimento-rails-e-criando-um-novo-projeto/">postagem em blog</a>
+e tudo o mais. Recentemente eu quebrei a cabeça com utilização de máquinas
+virtuais (o que <strong>demora pra caralho</strong>) e tentativas frustradas de usar um HD
+externo pra bootar nas máquinas do CIn/UFPE.</p>
+
+<p><img src="http://i.minus.com/ibov54MlubiLia.png" alt="nitrous" /></p>
+
+<p>Hoje o <a href="http://nitrous.io">Nitrous</a> salvou a minha pele. Se você tem alguma
+proficiência com a utilização de aplicações web, vá lá e faça seu nome. Se não,
+continue a leitura e acompanhe um passo-a-passo pra rodar uma aplicação RoR na
+nuvem em <strong>pouquíssimo</strong> tempo.</p>
+
+<!-- more -->
+
+
+<p>Antes de qualquer coisa, você precisa de uma conta para utilizar o serviço: dá
+pra criar na <a href="http://nitrous.io">home</a> ou se cadastrar usando o <a href="https://www.nitrous.io/users/auth/github">Github</a>,
+<a href="https://www.nitrous.io/users/auth/google_oauth2">Google+</a> ou <a href="https://www.nitrous.io/users/auth/linkedin">Linkedin</a>.
+(Eita! Não tem FB. :D)</p>
+
+<p>Uma vez autenticado, é só clicar em <code>New Box</code>. A tela pra criação de um novo &ldquo;box&rdquo;
+é bastante simples e intuitiva (+1 pra galera do Nitrous). Aqui, deixei o nome
+da app que eles sugeriram (inspirados em Game of Thrones :D) e selecionei a região
+&ldquo;South America&rdquo;. Acho que não dá pra melhorar as specs da máquina virtual no plano
+gratuito mas pela experiência que tive com esse plano, tudo rodou <strong>muito</strong> rápido
+e eficientemente. Aliás, não dá pra reclamar de uma máquina com 384Mb de ram e
+750MB de armazenamento em massa se você não pretende jogar GTA V nela (e, basicamente,
+rodar só o terminal).</p>
+
+<p><img src="http://i.minus.com/ib2vdoCif32F5l.png" alt="create-box" /></p>
+
+<p><code>Create Box</code> e:</p>
+
+<p><img src="http://i.minus.com/iGeyT4i1ZXK8o.png" alt="provisioning" /></p>
+
+<p>Na página de visualização de seus boxes, selecione o box recém-criado e clique
+em <code>IDE</code>. A tela que você deve ver é uma como a que segue:</p>
+
+<p><img src="http://i.minus.com/i8a2bakwQNj7m.png" alt="IDE" /></p>
+
+<p>Ou seja: um editor de texto muito parecido com o Sublime Text e um console &mdash;
+tudo o que precisamos para começar a desenvolver! \o/ Rodei alguns comandos
+pra dar uma mostra do que temos ao nosso dispor:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span><span class="nb">cd </span>workspace
+</span><span class='line'><span class="nv">$ </span>ruby -v
+</span><span class='line'><span class="nv">$ </span>rails -v
+</span><span class='line'><span class="nv">$ </span>rvm -v
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Mas não vamos começar do zero. Clone o código do <a href="https://github.com/embs/bdance">BDance</a>
+&mdash; projeto que deve ser assunto de uma postagem em breve.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git clone https://github.com/embs/bdance.git <span class="c"># o git também já está instalado</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Fiz o clone via HTTPS mas dá pra configurar chaves SSH no Nitrous pra permitir
+o clone via SSH (não testei isso ainda). Dê um <code>cd</code> para o diretório criado pelo
+comando <code>git clone</code> e bote o negócio pra rodar!</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>bundle                <span class="c"># instala dependências</span>
+</span><span class='line'><span class="nv">$ </span>rake db:create:all       <span class="c"># cria bases de dados</span>
+</span><span class='line'><span class="nv">$ </span>rake db:migrate          <span class="c"># cria tabelas</span>
+</span><span class='line'><span class="nv">$ </span>rake bootstrap:all    <span class="c"># povoa base de dados com informações fakes (ou quase isso)</span>
+</span><span class='line'><span class="nv">$ </span>rails s
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Não encane se o <code>rake bootstrap:all</code> não rolar. Fiz isso hoje e não sei qual
+será o seu futuro&hellip; Uma vez que o servidor Rails estiver rodando, clique (lá
+no menu do topo da página) em <code>Preview</code> e selecione <code>Port 3000</code> (que é a porta
+utilizada pelo servidor Rails por padrão).</p>
+
+<p>Agora é só brincar com a aplicação Rails hosteada no Nitrous e descobrir outros
+serviços que a plataforma oferece. Pense num negócio arretado!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Recife Pirates X Scorpions De Natal]]></title>
+    <link href="http://embs.blog.br/blog/2013/04/29/recife-pirates-x-scorpions-de-natal/"/>
+    <updated>2013-04-29T17:04:00-03:00</updated>
+    <id>http://embs.blog.br/blog/2013/04/29/recife-pirates-x-scorpions-de-natal</id>
+    <content type="html"><![CDATA[<p><img src="http://i.minus.com/i5szUGDQjElpT.jpg" alt="Pirates x Scorpions" /></p>
+
+<p>No último sábado o time do uSport esteve presente no jogo Recife Pirates contra
+os Scorpions de Natal, que aconteceu no Estádio Municipal de Camaragibe às 19h.</p>
+
+<!-- more -->
+
+
+<h2>O jogo</h2>
+
+<p>Ah, qual é! Não preciso comentar muito sobre a partida, não é mesmo? Afinal de
+contas, ela foi transmitida e pode ser acessada por
+<a href="http://www.usport.com.br/matches/2">este link</a>.</p>
+
+<p>O que posso dizer sobre o evento é que ele foi muito bem sucedido e proveitoso
+para o time do uSport!</p>
+
+<h2>A transmissão</h2>
+
+<p>Apesar de termos batido o recorde de audiência no horário do jogo, nossos
+visitantes aparentemente não estavam no estádio (em que não havia muitas pessoas)
+e tivemos que transmitir o jogo nós mesmos. Esperamos que, com uma maior
+divulgação do uSport e dos jogos (amistosos ou oficiais), futuramente o público
+virtual esteja mais disposto a transmitir partidas.</p>
+
+<p>Além disso, em breve lançaremos novidades que tornarão a transmissão de partidas
+muito mais divertida!</p>
+
+<h2>Falha da aplicação</h2>
+
+<p>Em um dado momento do jogo, o site do uSport esteve indisponível e a mensagem
+que o usuário recebia a respeito disso era apenas &ldquo;Application Error&rdquo; (ou algo
+mais feio que isso). Pedimos desculpas a todos pela incoveniência e
+reafirmamos que nossa plataforma está em pleno desenvolvimento &mdash; do qual <strong>você</strong>
+pode fazer parte: basta entrar em contato conosco
+(<a href="mailto:contato@quince.com.br">contato@quince.com.br</a>).</p>
+
+<p>Informamos seguramente que a falha <strong>não teve</strong> qualquer relação com a quantidade
+de acessos que tivemos &mdash; que, como já mencionado, superou todas as marcas de
+número de usuários online ao mesmo tempo que o uSport já tinha recebido.</p>
+
+<p>Na realidade, a inacessibilidade à plataforma se deu graças a um problema com
+a solução utilizada para o hosteamento de imagens. Essa solução já foi alterada
+por uma mais confiável e rápida! Pedimos a todos que perderam imagens upadas que
+refaçam o upload &mdash; e, mais uma vez, perdão pelo ocorrido.</p>
+
+<h2>Agradecimento</h2>
+
+<p>Agradecemos às equipes dos Pirates e dos Scorpions que possibilitaram esse
+importante passo rumo à melhoria do serviço fornecido pelo uSport. Aproveitamos
+para reafirmar que qualquer sugestão, dúvida ou comentário sobre a plataforma
+pode ser enviada para <a href="mailto:contato@quince.com.br">nosso e-mail</a> &mdash; estaremos
+100% receptivos e disponíveis!</p>
+
+<p>Em breve mais um jogo de futebol americano no uSport. Fique ligado!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Gerenciamento De Times]]></title>
+    <link href="http://embs.blog.br/blog/2013/04/25/gerenciamento-de-times/"/>
+    <updated>2013-04-25T01:00:00-03:00</updated>
+    <id>http://embs.blog.br/blog/2013/04/25/gerenciamento-de-times</id>
+    <content type="html"><![CDATA[<p>Times e jogadores são entidades fundamentalmente importantes para a prática ou
+realização de qualquer esporte &mdash; considerando esportes individuais como sendo
+praticados / realizados por times de um único jogador. Recentemente incrementamos
+no <a href="http://www.usport.com.br">uSport</a> a seção de gerenciamento de times e jogadores
+&mdash; que já existia de maneira bastante limitada &mdash; com a adição de verificação
+da permissão para o gerenciamento, que se dá como segue.</p>
+
+<!-- more -->
+
+
+<h2>Criação de times</h2>
+
+<p>Qualquer usuário cadastrado pode criar um time. Para isso, basta ir à seção
+&ldquo;Gerenciar times e jogadores&rdquo; e clicar em &ldquo;Criar novo time&rdquo;</p>
+
+<p><img src="http://i.minus.com/iRxl0gygnljtp.png" alt="Criação de um time" /></p>
+
+<p>O novo time será vinculado ao usuário logado, que terá permissão de <strong>dono</strong>.</p>
+
+<h2>Edição de times</h2>
+
+<p>O dono do time poderá <em>em breve</em> adicionar usuários que desempenharão o papel
+de <strong>gerentes</strong> do time. Um gerente pode editar as informações do time mas não
+removê-lo nem adicionar novos gerentes.</p>
+
+<p><img src="http://i.minus.com/iQYGRyYsr2IqV.png" alt="Edição de um time" /></p>
+
+<h2>Remoção de times</h2>
+
+<p>Apenas o dono tem o poder de excluir seus próprios times.</p>
+
+<p><img src="http://i.minus.com/ibc3rWpa7CeGfd.png" alt="Remoção de um time" /></p>
+
+<h2>Diferenciação de papéis</h2>
+
+<p>Em resumo, existem dois papéis diferentes no gerenciamento de times:</p>
+
+<ul>
+<li>Dono: pode editar, remover e adicionar gerentes a um time;</li>
+<li>Gerente: pode apenas editar;</li>
+</ul>
+
+
+<p>Simples e descomplicado, não? :)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Nova Logomarca Do uSport]]></title>
+    <link href="http://embs.blog.br/blog/2013/04/22/nova-logomarca-do-usport/"/>
+    <updated>2013-04-22T18:15:00-03:00</updated>
+    <id>http://embs.blog.br/blog/2013/04/22/nova-logomarca-do-usport</id>
+    <content type="html"><![CDATA[<p>Depois de um longo dia de brainstorming repleto de pizzas da Habbibs,
+chegou-se a um resultado quase finalizado (já que a arte é sempre um trabalho
+em progresso) para a logomarca do <a href="http://www.usport.com.br">uSport</a>.</p>
+
+<p><img src="http://i5.minus.com/jU2oBuGvdPoJl.png" alt="Logo uSport" /></p>
+
+<p>Que tal?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Como Fazer Deploy De Aplicações Rails No Heroku]]></title>
+    <link href="http://embs.blog.br/blog/2013/03/07/como-fazer-deploy-de-aplicacoes-rails-no-heroku/"/>
+    <updated>2013-03-07T19:37:13-03:00</updated>
+    <id>http://embs.blog.br/blog/2013/03/07/como-fazer-deploy-de-aplicacoes-rails-no-heroku</id>
+    <content type="html"><![CDATA[<p>Você vai precisar de:</p>
+
+<ul>
+<li>Conta no <a href="http://www.heroku.com/">Heroku</a>;</li>
+<li><a href="http://naofalacomputa.blogspot.com.br/2013/02/configurando-ambiente-de.html">Ambiente preparado</a> para criação de app Rails;</li>
+</ul>
+
+
+<p>Vamos, primeiro, criar a aplicação Rails:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>rails new hello_heroku
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Já temos uma aplicação Rails pronta para ser mandada ao ambiente de produção do Heroku, certo? Certo. Mas vamos fazer uma modificação mínima para que a aplicação não fique apenas na tela de boas vindas do Rails. Remova o arquivo public/index.html e adicione uma nova rota ao config/routes.rb</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># routes.rb</span>
+</span><span class='line'><span class="ss">HelloHeroku</span><span class="p">:</span><span class="ss">:Application</span><span class="o">.</span><span class="n">routes</span><span class="o">.</span><span class="n">draw</span> <span class="k">do</span>
+</span><span class='line'>  <span class="n">root</span> <span class="ss">to</span><span class="p">:</span> <span class="s1">&#39;welcome#index&#39;</span>
+</span><span class='line'>  <span class="c1"># ou root :to =&gt; &#39;welcome#index&#39; se você estiver usando uma versão do ruby &lt; 1.9</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<!-- more -->
+
+
+<p>Isso fará com que qualquer requisição get à raiz da nossa aplicação seja direcionado para a action index do nosso controlador WelcomeController (que, por sinal, ainda não temos) &mdash; como podemos ver ao executar &lsquo;rake routes&rsquo;:</p>
+
+<p><img src="http://i.minus.com/ibkNUWUx72wCGL.png" alt="img" /></p>
+
+<p>O próximo passo é óbvio: criar o WelcomeController. Para evitar qualquer arquivo desnecessário que o generator do Rails pode, eventualmente, criar, façamos isso na mão. Basta criar um arquivo chamado welcome_controller.rb no diretório app/controllers/ com uma única action vazia index:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># app/controllers/welcome_controller.rb</span>
+</span><span class='line'><span class="k">class</span> <span class="nc">WelcomeController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
+</span><span class='line'>  <span class="k">def</span> <span class="nf">index</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Como não fazemos nada na action index, ela simplesmente irá renderizar a view index.html.erb que deve estar presente em app/views/welcome/:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='erb'><span class='line'><span class="cp">&lt;%#</span><span class="c"> app/views/welcome/index.html.erb </span><span class="cp">%&gt;</span><span class="x"></span>
+</span><span class='line'><span class="x">&lt;b&gt;Hello, Heroku!&lt;/b&gt;&lt;br /&gt;</span>
+</span><span class='line'><span class="cp">&lt;%=</span> <span class="n">l</span> <span class="no">Time</span><span class="o">.</span><span class="n">now</span><span class="p">,</span> <span class="nb">format</span><span class="p">:</span> <span class="ss">:short</span> <span class="cp">%&gt;</span><span class="x"></span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Pronto. Nossa prolífica aplicação Rails está pronta para ir pra produção! Se tiver dado tudo certo até aqui, você deve visualizar algo parecido com a imagem abaixo ao rodar o servidor (rails s) e acessar &lsquo;localhost:3000&rsquo;:</p>
+
+<p><img src="http://i.minus.com/iZZAZSDzx9co5.png" alt="img" /></p>
+
+<p>O próximo passo é criar a aplicação no Heroku. Para isso, é necessário que você disponha do ToolBelt do Heroku &mdash; uma espécie de kit de ferramentas composto por comandos que tornam a tarefa de deploy (e outras) trivial. O ToolBelt pode ser instalado facilmente e as instruções para instalação são encontradas no próprio sítio do Heorku. Em sistemas Debian-like, é feito com um único passo:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>ToolBelt instalado, é hora de autenticar com a conta do Heroku (com o comando &lsquo;heroku login&rsquo;). Por exemplo:</p>
+
+<p><img src="http://i.minus.com/ibkG6ZxcMa4eUd.png" alt="img" /></p>
+
+<p>Depois basta criar a app no Heroku usando o comando heroku apps:create (seja mais criativo que eu e escolha um nome que ainda não exista entre as apps cadastradas no Heroku):</p>
+
+<p><img src="http://i.minus.com/i8Lx4s1ryZRgi.png" alt="img" /></p>
+
+<p>Pra terminar, vamos dar o deploy &mdash; que é tão fácil quanto dar um push usando o Git. Na verdade, é um push usando o Git. &ldquo;Mas, peraí, você não disse nada de Git e agora vem com essa história aí&hellip; vou ter que saber usar essa parada pra poder dar o deploy, pensei que fosse fácil, não vale a pena usar isso, não, é melhor pagar por uma solução mais fácil ou já sei: vou pagar pra alguém fazer isso pra mim&rdquo; é o que você vai pensar se souber usar vírgulas no pensamento. Pois é. Continue chorando ou instale e configure o Git (se você estiver usando Windows, sugiro que continue chorando).</p>
+
+<p>O Github possui artigos muito bons que ajudam pra caralho quando se encontra algum problema relacionado ao Git. Problemas com chaves, por exemplo: <a href="https://help.github.com/articles/generating-ssh-keys.">https://help.github.com/articles/generating-ssh-keys.</a> É só procurar. <a href="https://help.github.com">https://help.github.com</a> :)</p>
+
+<p>Agora que você já deu a última soluçada do pranto e decidiu não mudar de aba me xingando, vamos adicionar o remoto que o Heroku dispõe para toda app que é hosteada lá e que pode ser encontrado clicando nos links no Heroku: Apps >> NomeDeSuaApp >> Settings</p>
+
+<p><img src="http://i.minus.com/irxiP8YXet3R5.png" alt="img" /></p>
+
+<p>Aí está: git@heroku.com:hello-heroku-naofalacomputa.git. Dava até pra ter inferido. Enfim&hellip;</p>
+
+<p><img src="http://i.minus.com/iOWRWpFtvp0Fn.png" alt="img" /></p>
+
+<p>Ah, gordo escroto, não dá pra copiar e colar da imagem. Vou quebrar teu galho&hellip;</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># inicia repositório git</span>
+</span><span class='line'><span class="nv">$ </span>git init
+</span><span class='line'>
+</span><span class='line'><span class="c"># adiciona remote do heroku</span>
+</span><span class='line'><span class="nv">$ </span>git remote add heroku SUA_URL_GIT
+</span><span class='line'>
+</span><span class='line'><span class="c"># lista seus remotos</span>
+</span><span class='line'><span class="nv">$ </span>git remote -v
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Agora, sim, é só dar o push!</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># não sem antes criar o commit, claro :)</span>
+</span><span class='line'><span class="nv">$ </span>git add . <span class="c"># adiciona tudo</span>
+</span><span class='line'>
+</span><span class='line'><span class="nv">$ </span>git commit -m <span class="s2">&quot;Primeiro commit&quot;</span> <span class="c"># cria o commit</span>
+</span><span class='line'>
+</span><span class='line'><span class="nv">$ </span>git push heroku master <span class="c"># deploy!</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>O resultado do push pro Heroku é assaz comprido. Divirta-se com a leitura. Se você não fez nenhuma merda e for um bom aprendiz, deve ver a aplicação rodando na URL da app no Heroku:</p>
+
+<p><img src="http://i.minus.com/ibabshYbOOa6iB.png" alt="img" /></p>
+
+<h3>Observação Importante e Bastante Pertinente</h3>
+
+<p>O Rails, por default, utiliza a gem do sqlite. O Heroku, compulsoriamente, utiliza um BD Postgres. Se você tentar dar deploy de uma app Rails com a gem do sqlite listada no seu Gemfile, vai dar merda. Remova ou comente a linha que especifica essa gem, adicione uma linha especificando a gem do Postgres (&ldquo;gem &lsquo;pg&rsquo;&rdquo;) e não esqueça de rodar o bundle antes de criar o novo commit para o push correto pro Heroku.</p>
+
+<h3>Observação Pertinente mas de Pouca Importância</h3>
+
+<p>Não, eu não estou às 3h da matina do dia 07 de Março escrevendo um tutorial de como fazer deploy de aplicações Rails no Heroku. A hora apareceu assim deturpada por conta da configuração da localização da app Rails. Mas isso fica pra uma próxima&hellip;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Guia Rápido Para Instalação E Configuração Do PostgreSQL]]></title>
+    <link href="http://embs.blog.br/blog/2013/03/02/guia-rapido-para-instalacao-e-configuracao-do-postgresql/"/>
+    <updated>2013-03-02T19:26:45-03:00</updated>
+    <id>http://embs.blog.br/blog/2013/03/02/guia-rapido-para-instalacao-e-configuracao-do-postgresql</id>
+    <content type="html"><![CDATA[<h3>Um Pouco de Blábláblá</h3>
+
+<p>Ontem eu tive minha primeira experiência (pra valer) de utilização do PuppyLinux [1][2]. Quis experimentar o S.O. por que as máquinas do Centro de Informática tolhem completamente o usuário comum (leia-se aluno) quanto à instalação de ferramentas e, desenvolvendo um projeto RoR atualmente, preciso instalar várias delas.</p>
+
+<p>A ideia inicial é, portanto, rodar um ambiente de desenvolvimento Ruby on Rails direto de um pendrive com o S.O. PuppyLinux. Nesta postagem não abordarei o processo completo de setup do ambiente (que me custou a tarde e a noite de ontem) mas apenas uma das partes &mdash; supostamente &mdash; mais laboriosas: a instalação (na mão, é claro) do PostgreSQL.</p>
+
+<!-- more -->
+
+
+<h3>1º Passo: Download</h3>
+
+<p>A página de download do Postgres fornece binários pré-compilados para vários S.O.s. No meu caso, pra instalar no Puppy, baixei o fonte desta página. A versão que escolhi foi a 9.1.7 [3].</p>
+
+<h3>2º Passo: Compilar e instalar</h3>
+
+<p>Descompactação:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>tar xvjf postgresql-9.1.7.tar.bz2
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Mudar para o diretório novo:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span><span class="nb">cd </span>postgresql-9.1.7/
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Preparar instalação:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>./configure
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>e</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>gmake
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Mudar para usuário super:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>su
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Instalar: asd</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># gmake install</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>3º Passo: Configurar e rodar</h3>
+
+<p>Criar o usuário (no Linux) &lsquo;postgres&rsquo;:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># adduser postgres</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Criar o diretório onde ficarão os arquivos do BD:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># mkdir /usr/local/pgsql/data</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Dar permissão ao usuário postgres:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># chown postgres /usr/local/pgsql/data</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Mudar para usuário postgres:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># su - postgres</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Iniciar o banco:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># /usr/local/pgsql/bin/initdb -D /usr/local/pgsql/data</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Iniciar o processo do Postgres:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># /usr/local/pgsql/bin/postgres -D /usr/local/pgsql/data &gt;logfile 2&gt;&amp;1 &amp;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>4º Passo: Testar a criação de um banco</h3>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># /usr/local/pgsql/bin/createdb test</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>e, para acessar o banco:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># /usr/local/pgsql/bin/psql test</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>5º Post-Install: Linkar comandos e criar um outro usuário</h3>
+
+<p>Não sei se você percebeu mas, para rodar os comandos do postgres nas linhas de comando anteriores, precisamos utilizar o caminho completo para o diretório onde o comando se encontra. Isso é um saco. Pra resolver, criei links simbólicos para todos os comandos presentes em &ldquo;/usr/local/psql/bin/psql&rdquo;. Assim:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># for f in $(ls -d /usr/local/pgsql/bin/*); do ln -s $f /usr/local/bin; done</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Agora só falta uma coisa: criar um usuário do Postgres com o nome do seu usuário Linux. Saia do usuário super (com um simples &lsquo;exit&rsquo;) e comande:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>sudo -u postgres createuser --superuser <span class="nv">$USER</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>E finalmente, para configurar uma senha para seu novo usuário, acesse a ferramenta de linha de comando do Postgres:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>sudo -u postgres psql
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>e (substitua $USER pelo nome de seu usuário Linux)</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">postgres</span><span class="o">=</span><span class="c"># \password $USER</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Beleza. Agora você já pode acessar o Posgres com o seu usuário e, no caso de estar desenvolvendo um projeto Rails, configurar o database.yml com seus dados de usuário e senha.</p>
+
+<h3>Referências</h3>
+
+<ul>
+<li>[1] <a href="http://puppylinux.com">http://puppylinux.com</a></li>
+<li>[2] <a href="http://puppylinux.org">http://puppylinux.org</a></li>
+<li>[3] <a href="http://ftp.postgresql.org/pub/source/v9.1.7/postgresql-9.1.7.tar.bz2">http://ftp.postgresql.org/pub/source/v9.1.7/postgresql-9.1.7.tar.bz2</a></li>
+<li>[4] <a href="http://www.postgresql.org/docs/9.0/static/install-short.html">http://www.postgresql.org/docs/9.0/static/install-short.html</a></li>
+<li>[5] <a href="http://www.commandlinefu.com/commands/view/1225/symlink-all-files-from-a-base-directory-to-a-target-directory">http://www.commandlinefu.com/commands/view/1225/symlink-all-files-from-a-base-directory-to-a-target-directory</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Como Utilizar Issues Do Github]]></title>
+    <link href="http://embs.blog.br/blog/2013/02/20/como-utilizar-issues-do-github/"/>
+    <updated>2013-02-20T19:19:40-03:00</updated>
+    <id>http://embs.blog.br/blog/2013/02/20/como-utilizar-issues-do-github</id>
+    <content type="html"><![CDATA[<p>Pessoal,</p>
+
+<p>o nosso repositório no Github possui uma seção muito importante em qualquer projeto de desenvolvimento de software: a seção de issues. Issues são, basicamente, questões do projeto que podem assumir dois estados: aberta (open) ou fechada (closed).</p>
+
+<p>No Github, a cada issue são associadas labels que indicam do que ela trata. Por exemplo: uma issue com título &ldquo;Corrigir estilo do botão de logar&rdquo; pode ser associada com as labels &ldquo;front-end&rdquo; e &ldquo;bug&rdquo; &mdash; já que, claramente, trata-se de um bug no front-end do projeto.</p>
+
+<!-- more -->
+
+
+<p>As labels são completamente customizáveis &mdash; isto é, podemos criá-las, editá-las ou removê-las, além de associar uma cor a cada uma delas. Segue uma descrição de cada uma das labels existentes atualmente em nosso repositório:</p>
+
+<ul>
+<li>Bug: bug;</li>
+<li>Enhancement: melhoria. Rotula issues que se referem a funcionalidades que <em>já estão implementadas</em> mas podem ser melhoradas;</li>
+<li>Front-end: issues relacionados à implementação do front-end (HTML, CSS e Javascript);</li>
+<li>Back-end: issues relacionados à implementação do back-end (controladores, modelos e tudo o mais que for RubyOnRails-specific);</li>
+<li>Duplicate: usada para quando, por engano, issues são criadas para questões do projeto que já possuem issue;</li>
+<li>Feature: implementação de nova funcionalidade;</li>
+<li>Invalid: nunca usei. Deve ser pra quando um issue é criado por engano ou pra quando um issue é criado e depois se constata que não é uma questão do projeto válida (que deve ser levada em conta);</li>
+<li>Question: usada para issues referentes a dúvidas específicas sobre alguma coisa do projeto. Ex.: uma issue &ldquo;Será que não deveríamos usar o MongoDB como nosso banco de dados?&rdquo; pode ser rotulada com a label &ldquo;question&rdquo;;</li>
+<li>Wontfix: rotula issues que não serão resolvidas;</li>
+</ul>
+
+
+<p>Além disso, issues podem ser atribuídas a um colaborador do projeto (responsável por resolvê-la, isto é, fechá-la ou tratar dos meios para que ela seja fechada, vulgo mandar alguém fazer) e podem ser associadas a um milestone do projeto. Milestones são utilizados quando há prazos estimados para lançamento de versões &mdash; algo que foge do escopo desta mensagem e que não utilizaremos ao menos por enquanto.</p>
+
+<p>Estou criando issues à medida em que encontro possibilidades factíveis para tal. Quem quiser acompanhar e colaborar, basta fazer isso através da nossa seção de issues no Github.</p>
+
+<p>Abraços!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tutorial: Pull Request Através De Branches Distintos Num Mesmo Repositório]]></title>
+    <link href="http://embs.blog.br/blog/2013/02/08/tutorial-pull-request-atraves-de-branches-distintos-num-mesmo-repositorio/"/>
+    <updated>2013-02-08T19:09:45-03:00</updated>
+    <id>http://embs.blog.br/blog/2013/02/08/tutorial-pull-request-atraves-de-branches-distintos-num-mesmo-repositorio</id>
+    <content type="html"><![CDATA[<p>Pessoal,</p>
+
+<p>terminei de implementar a funcionalidade que escolhi (Autenticação com Facebook) e vou aproveitar minhas modificações para dar um exemplo de como é aquele fluxo de criação de novo branch e pull request usando o git e o Github. Segui o algoritmo e, no momento, eu deveria estar no passo 6 (abra a imagem em uma nova aba ou janela para ver em seu tamanho original)
+<img src="http://i.minus.com/ill0y8RRJeriz.png" alt="Inline Image" /></p>
+
+<p>Acontece que eu esqueci de executar o passo 4 (afinal, estava com muito sono), o que não é de todo ruim por que serve para mostrar o que fazer no caso de acontecer o mesmo com algum de vocês.</p>
+
+<!-- more -->
+
+
+<p>Mas atenção: se você fez o que o passo 4 diz (criou e utilizou um novo branch para a inclusão das modificações), pode pular isso que vou fazer agora e passar direto para a etapa de criação do commit. Executando um simples</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git status
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>é isso que obtenho como resultado:
+<img src="http://i.minus.com/itqnNxt69zTSo.png" alt="Inline Image" /></p>
+
+<p>Passando as Modificações para o Branch Correto</p>
+
+<p>Observem que estou no branch master e tenho vários arquivos modificados e untracked. Não era bem isso que eu queria. Queria ter todos esses arquivos modificados e untracked em outro branch para que eu pudesse, então, usar &lsquo;git add&rsquo; e criar um commit com todas essas modificações. Como resolver essa bronca? Bem.. há algumas maneiras diferentes de se fazer isso e eu optei por uma que considero bastante simples: &lsquo;git stash&rsquo;.</p>
+
+<p>Antes usar o comando stash do git, preciso adicionar tudo como se fosse criar um commit. O stash é mais ou menos um commit que não vai pra lugar nenhum. Adicionando todas as minhas modificações:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git add .
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Chamando &lsquo;git status&rsquo; novamente, vejo os arquivos que foram adicionados ao index e estão prontos para entrar num novo commit:
+<img src="http://i.minus.com/iBdt6ThpNFmXt.png" alt="Inline Image" /></p>
+
+<p>O status mostra que há um arquivo no status &lsquo;deleted&rsquo;. Para efetivar essa modificação no git é necessário executar</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git rm spec/controllers/games_controller_controller_spec.rb
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Depois disso, executando &lsquo;git status&rsquo; novamente, vejo que todas as modificações (inclusive novos arquivos e arquivos removidos) foram inseridas ao index e estão prontas para ser commitadas (aparecem em verde). Agora, pra fazer o stash entrar em ação:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git stash
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>O comando dá como saída uma mensagem informando que as modificações foram salvas no stash e que o HEAD agora está no último commit. O stash funciona em regime de pilha. Se eu continuasse fazendo modificações, adicionasse com &lsquo;git add&rsquo; e chamasse &lsquo;git stash&rsquo; de novo, essas novas modificações seriam empilhadas sobre o último stash. O comando para listar tudo o que há na pilha de stash é</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git stash list
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Depois de salvar as modificações no stash, o &lsquo;git status&rsquo; fica limpo novamente (sem aquele monte de arquivos modificados e untrackeds resultantes da minha implementação).
+<img src="http://i.minus.com/iiceUtgqKUzWx.png" alt="Inline Image" /></p>
+
+<p>Percebam que o arquivo &lsquo;.rvmrc&rsquo; está na seção untracked (o que não acontecia antes) por que o arquivo .gitignore que informava ao git para ignorar o .rvmrc foi mandado pro stash. De qualquer maneira, não há problemas em que ele permaneça aí por que a seção untracked (como já deve ser sabido) exibe arquivos que não estão sendo versionados com o git.</p>
+
+<p>Beleza. Agora que já tenho todas as minha modificações em um lugar que posso recuperar depois e meu branch master voltou a ser o que era antes de eu começar a implementação, meu próximo passo é criar meu novo branch e dar um checkout pra ele (isto é, informar ao git que quero trabalhar nesse branch). Para criar um novo branch a partir do branch em que estou atualmente (no caso, estou no branch master), basta executar</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git branch fb-connect
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>em que &lsquo;fb-connect&rsquo; é o nome do meu branch (escolhido arbitrariamente por mim). Isso cria o branch mas não o seleciona. Para mudar para o branch:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git checkout fb-connect
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Agora, sim, estamos trabalhando no branch recém-criado. Git oferece uma maneira de encurtar o caminho para criar um novo branch e dar checkout nele com um comando só, que é o seguinte:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git checkout -b fb-connect
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>O argumento &lsquo;-b&rsquo; informa que o branch para o qual se está dando checkout é um novo branch. Para confirmar que de fato estamos trabalhando num novo branch podemos rodar o popular &lsquo;git status&rsquo; ou</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git branch
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>que lista todos os branches no repositório local ou</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git branch -a
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>que lista todos os branches &mdash; tanto no repositório local quanto nos remotos (a stands for all).
+<img src="http://i.minus.com/ibpwfGJQg0wD3N.png" alt="Inline Image" /></p>
+
+<p>Estamos preparados para remover aquelas modificações colocadas no stash e aplicá-las no novo branch! Para fazer isso:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git stash pop
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Isso aplica as mudanças, já adicionando os novos arquivos ao stage &mdash; isto é, prontos para ser commitados. Arquivos modificados e removidos vão para a seção de not staged, de acordo com a comparação com o último commit da árvore de commits do branch (que é onde o HEAD se encontra).
+<img src="http://i.minus.com/ibuvZnHpXlqYc3.png" alt="Inline Image" /></p>
+
+<p>Criando e Enviando o Novo Commit ao Repositório Remoto</p>
+
+<p>Para adicionar tudo ao commit que iremos criar, já sabe, né? &lsquo;git add .&rsquo; e &lsquo;git rm <caminho/para/o/nome do arquivo a ser removido>&hellip;&rsquo;. Depois de fazer isso, todas as modificações aparecem em verde ao dar um novo &lsquo;git status&rsquo; &mdash; o que significa que serão adicionadas ao novo commit, que criaremos com:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git commit -m <span class="s2">&quot;Introduz funcionalidade de login com conta do Facebook&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Se dermos um &lsquo;git status&rsquo; novamente, veremos que nosso diretório de trabalho está limpo (nada pra commitar) e executando</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git log
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>podemos listar todos os commits.
+<img src="http://i.minus.com/i9EylLqwxG1bM.png" alt="Inline Image" /></p>
+
+<p>Atente para o fato de que o último commit (&ldquo;Introduz funcionalidade[&hellip;]&rdquo;) só existe no branch em que estamos atualmente! Se dermos &lsquo;git checkout master&rsquo; e &lsquo;git log&rsquo; ele não ira aparecer. O commit também não existe no repositório remoto. Na verdade, o branch que criamos ainda não existe no remoto também. Para subir nosso código para o repositório remoto (hosteado pelo Github), precisamos rodar o comando</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git push origin fb-connect
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>em que origin é o nome do remoto (você pode ver os nomes e os endereços dos remotos cadastrados no seu repositório local através de &lsquo;git remote -v&rsquo;) e fb-connect é o nome do branch para o qual o push será feito.
+<img src="http://i.minus.com/ivF35JHY3ZLa4.png" alt="Inline Image" /></p>
+
+<p>Criando o Pull Request</p>
+
+<p>Agora o nosso novo branch (com o commit que possui as modificações) já está no repositório remoto e pode ser visualizado através da interface web do Github (<a href="https://github.com/embs/gaming/tree/fb-connect">https://github.com/embs/gaming/tree/fb-connect</a>). É justamente de lá que iremos realizar o pull request para solicitar que o código adicionado e modificado seja integrado ao branch principal (master). Isso é bem fácil de fazer (nem precisa de linha de comando &mdash; pra ser sincero, não sei como fazer por linha de comando nem se há como fazer por linha de comando): basta clicar no botão bonito (Pull Request) do Github. :)
+<img src="http://i.minus.com/ipN3MizF4CLOd.png" alt="Inline Image" /></p>
+
+<p>Depois aparece um formulário em que você pode dar mais detalhes (além do texto da mensagem do último commit) sobre o que você fez nesse novo branch. Ah! outra coisa importante nessa tela é a informação de qual pra qual branch o pull request está sendo feito. Nesse caso, estou solicitando para que o código do fb-connect vá para o master.
+<img src="http://i.minus.com/ib2xwxNGb0RXhF.png" alt="Inline Image" /></p>
+
+<p>E aí é só &ldquo;Send pull request&rdquo;.
+<img src="http://i.minus.com/iA4gdblA4YL7o.png" alt="Inline Image" /></p>
+
+<p>E correr pro abraço! Ou melhor&hellip; ir para o passo 7 do passo-a-passo. :/</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Configurando Ambiente De Desenvolvimento Rails E Criando Um Novo Projeto]]></title>
+    <link href="http://embs.blog.br/blog/2013/02/06/configurando-ambiente-de-desenvolvimento-rails-e-criando-um-novo-projeto/"/>
+    <updated>2013-02-06T18:49:36-03:00</updated>
+    <id>http://embs.blog.br/blog/2013/02/06/configurando-ambiente-de-desenvolvimento-rails-e-criando-um-novo-projeto</id>
+    <content type="html"><![CDATA[<p>Pessoal,</p>
+
+<p>vou aproveitar que meu Linux aqui tá zerado pra fazer o que fizemos no
+treinamento de hoje: configurar o ambiente para desenvolvimento e criação de um
+novo projeto Rails.</p>
+
+<p>Pra começo de conversa, basta acessar um terminal no Linux. Estou usando o Linux
+Mint, que é baseado no Ubuntu. (clique com o botão direito e &ndash;> abrir em nova aba
+/ janela para ver a imagem em seu tamanho original)</p>
+
+<!-- more -->
+
+
+<p><img src="http://i1.minus.com/iNdaUrlsb96ra.png" alt="uname -a" /></p>
+
+<p>Beleza&hellip; a despeito do que dizem por aí sobre rodar um projeto Rails em 20
+minutos no Windows (hauhauhauhua), agora temos um terminal (um dos dois únicos
+programas que vamos, essencialmente, precisar para desenvolver) num sistema
+operacional que fornece tudo o que precisamos para trabalhar de forma ágil. Não
+é que não encontraremos problemas &mdash; isto sempre acontece &mdash; mas certamente
+poderemos solucioná-los de maneira fácil. O outro programa que precisamos para
+desenvolver é um editor de texto &mdash; que você pode escolher à sua preferência, eu
+gosto do Sublime Text.</p>
+
+<p>O segundo passo é instalar o RVM. &ldquo;Tá certo, Matheus. Você é um barbudo escroto
+mas o quê diabos é RVM?&rdquo;. RVM é uma ferramenta que separa diferentes ambientes
+de desenvolvimento para a linguagem Ruby. Um exemplo: você é um desenvolvedor
+fuderoso que está atualmente trabalhando em dois grandes projetos open-source
+feitos em Ruby on Rails (RoR). Um deles, o Unsocial, é uma rede social para
+nerds que têm número de amigos negativo, podem dar &ldquo;hate!&rdquo; no que os outros
+compartilham e excluir postagens do mural dos outros. O projeto Unsocial utiliza
+muitas e muitas gems (como são conhecidas as bibliotecas Ruby) para:
+autenticação de usuário, rating de postagens, amizade entre os usuários e outras
+bibliotecas relacionadas. O segundo projeto, o MathOnRails, é uma ferramenta web
+para execução de cálculos avançados que utiliza muitas e muitas gems também &mdash;
+poucas em comum com o primeiro projeto. Já deu, intuitivamente, pra perceber que
+ter todas as bibliotecas num único lugar para os dois projetos não é lá muito bom?
+Não é bom mesmo, não. Uma das desvantagens é que o tempo necessário para iniciar
+o ambiente de desenvolvimento (rodar servidor ou console localmente, por exemplo)
+vai ser muito maior se as gems dos dois projetos tiverem que ser carregadas.</p>
+
+<p>Antes de instalar o RVM, precisamos instalar algumas dependências. No Mint (ou
+Ubuntu ou Debian) é fácil fazer isso utilizando o gerenciador de pacotes (vulgo
+apt-get). Basta rodar o comando:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>sudo apt-get install libssl-dev libreadline6-dev zlib1g-dev curl
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>O resultado aqui foi o seguinte:
+<img src="http://i6.minus.com/itjOb5yY2PsW2.png" alt="Inline image 2" /></p>
+
+<p>Pra instalar o RVM:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span><span class="nb">echo</span> <span class="s1">&#39;[[ -s &quot;$HOME/.rvm/scripts/rvm&quot; ]] &amp;&amp; . &quot;$HOME/.rvm/scripts/rvm&quot; # Load RVM function&#39;</span> &gt;&gt; ~/.bash_profile
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Depois é necessário carregar o comando do diretório onde o RVM foi instalado:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span><span class="nb">source</span> ~/.bash_profile
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>E então testar se a instalação deu certo (chamando o comando &lsquo;rvm&rsquo; com o parâmetro
+&lsquo;-v&rsquo; para mostrar a versão do RVM):</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>rvm -v
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>O resultado aqui foi o seguinte:
+<img src="http://i4.minus.com/iApYQDwKRdObW.png" alt="Inline image 3" />
+(o que significa que deu tudo certo)</p>
+
+<p>Beleza. Próximo passo: instalar o Ruby através do RVM (não é a toa que RVM = Ruby
+Version Manager, isto é, além de separar as bibliotecas de diferentes projetos,
+ele permite utilizar facilmente diferentes versões do Ruby). Como no nosso projeto
+utilizaremos a versão 1.9.3 (que é a versão estável mais recente), vamos instalá-la:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>rvm install 1.9.3
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Só pra testar, do mesmo jeito que fizemos com o RVM:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>ruby -v
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Se o comando acima der algum erro, tente selecionar explicitamente a versão do
+Ruby que deve ser usada:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>rvm use 1.9.3
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Obtive o seguinte resultado:
+<img src="http://i4.minus.com/iHlXuLWZzFN4g.png" alt="Inline image 4" /></p>
+
+<p>Ok! Estamos nos aproximando do tão esperado momento de rodar um projeto Rails &mdash;
+o próximo passo, inclusive, é justamente instalar o framework para desenvolvimento
+web. O famigerado Rails nada mais é que uma biblioteca Ruby. Então é isso mesmo:
+basta instalar um gem (chamado Rails) pra poder desenvolver usando esse negócio
+tão famoso (utilizado por outras ferramentas tão foda quanto a nossa &mdash; a exemplo
+do próprio Github). Antes de executar o comando que irá executar a instalação,
+vamos esclarecer algumas coisas: o tal do RVM serve pra separar os ambientes de
+desenvolvimento, correto? Sim! Como é que a gente faz isso? Com gemsets! Massa.
+Então vamos lá. Primeiro, listamos todos os gemsets que temos:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>rvm gemset list
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Isso deve exibir a lista de gemsets existentes e uma setinha &lsquo;=>&rsquo; apontando para
+o gemset que está sendo usado atualmente. Legal. Mas peraí: já existem bibliotecas
+(ou gems) nesse gemset? Sei lá. Vamos descobrir:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>gem list
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Esse comando lista todos os gems instalados no gemset (já que estamos usando RVM
+para separá-los). Como deve ter aparecido, já existem alguns gems instalados por
+padrão. Vamos ao que interessa: criar um gemset que abrigue os gems de nosso
+projeto (que chamarei de quince mas você pode chamar do que quiser &mdash; afinal, só
+quem vai ter acesso a isso é você, na sua máquina, no seu ambiente de desenvolvimento).</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>rvm gemset create quince
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Gemset criado! Agora, vamos dizer ao RVM que queremos trabalhar com esse gemset:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>rvm gemset use quince
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Eu não sei aí, mas aqui deu merda. &ldquo;RVM is not a function&rdquo;.
+<img src="http://i4.minus.com/iJl2isdjsqPo4.png" alt="Inline image 5" /></p>
+
+<p>Ok, shit happens. Resolver isso não é muito complicado. Basta ir em Edit > Profile
+Preferences, escolher a aba Title and Command e checar a opção &ldquo;Run command as a
+login shell&rdquo;.
+<img src="http://i3.minus.com/i3y580N5ZjaQc.png" alt="Inline image 6" /></p>
+
+<p>Depois de setar essa configuração é necessário reiniciar o terminal (fechar e
+abrir ou abrir uma nova aba). Tentai aí selecionar o gemset de novo pra ver se
+funciona. Se funcionar (e eu espero que sim), lista aí os gems instalados pra
+ver se tem diferença em relação aos instalados no gemset padrão. Tem? Outro
+comando legal do RVM é o que indica a versão do Ruby e o gemset que estão sendo
+usados:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>rvm current
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Se isso der como saída algo do tipo &ldquo;ruby-1.9.3@quince&rdquo;, então estamos prontos
+para instalar o Rails (no gemset correto):</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>gem install rails --version 3.2.11 --no-ri --no-rdoc
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Os parâmetros que passamos são os seguintes:
+&mdash;version: versão do Rails que utilizaremos no projeto
+&mdash;no-ri e &mdash;no-rdoc: informa que a documentação do Rails não deve ser instalada
+junto com o gem. Escolhi esses parâmetros por que torna a instalação mais rápida
+e evita utilizar espaço desnecessário &mdash; já que utilizo <a href="http://railsapi.com/">http://railsapi.com/</a> para
+acessar a documentação quando quero consultar algo. Se você quiser ter a
+documentação localmente, basta não utilizar esses parâmetros.
+A saída aqui foi assim:
+<img src="http://i4.minus.com/iyG9y4BaY6JE4.png" alt="Inline image 7" /></p>
+
+<p>Se quiser, liste os gems novamente para checar que a lista aumentou
+consideravelmente. Isso se deve ao fato de que Rails depende de outros gems (que
+também foram instalados). Então é isso, já podemos usufruir de tudo que Rails
+oferece? Já. Como? Criando um novo projeto Rails (que, aqui, chamei de jardas):</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>rails new jardas
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Isso cria um novo diretório (chamado jardas) no diretório atual e adivinha só:
+esse novo diretório é um projeto Rails! Perceba que a saída do comando é uma lista
+de &lsquo;create&rsquo; (Rails já cria uma porrada de arquivos) seguida por um linha &lsquo;run
+bundle install&rsquo;. Bundle é uma ferramenta importantíssima que gerencia dependências
+do projeto. O comando &lsquo;bundle install&rsquo; instala os gems definidos no arquivo Gemfile
+(se notarmos bem, uma das primeiras linhas da série &lsquo;create&rsquo; é &lsquo;create Gemfile&rsquo;).
+Curioso? É só abrir o Gemfile no seu editor de texto pra ver quais gems são
+adicionados por default a um novo projeto Rails.
+O bundle install aqui deu em merda.
+<img src="http://i5.minus.com/iq4ugI2eFBnoG.png" alt="Inline image 8" /></p>
+
+<p>Olhando rapidamente o texto bizarro e colorido desse erro dá pra ver &lsquo;sqlite3&rsquo; em
+algum lugar. Opa! Não tenho o sqlite instalado aqui. :B Então deve ser isso.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>sudo apt-get install libsqlite3-dev
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Para executar o bundle install novamente (não esqueça de mudar pro diretório do
+projeto &mdash; isto é, dar um &lsquo;cd jardas/&rsquo;):</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>bundle install
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Agora funcionou. Maravilha! Então já temos um projeto Rails com todas as suas
+dependências instaladas? Temos. Será que essa joça funciona mesmo? Sei lá. Só
+testando pra ver&hellip;</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>rails s
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Funciona não. Deu um pau muito louco.
+<img src="http://i7.minus.com/ibiELe2Znyba1q.png" alt="Inline image 9" /></p>
+
+<p>Bem&hellip; independentemente do resto da mensagem (que parece incompreensível mesmo),
+tem um trecho que diz</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="s2">&quot;Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>De fato, a url indicada possui uma lista de bibliotecas que parecem ser o que eu
+preciso (além disso, ainda explica do que é que se trata, o que torna o erro
+ocorrido mais compreensível). É algo relacionado a executar código JavaScript
+dentro de código Ruby. Escolhi o primeiro da lista &mdash; um tal de therubyracer.
+Legal. E agora? Como é que faz pra instalar isso aí? Ué, do mesmo jeito que
+fazemos pra instalar qualquer outro gem: indicando a dependência através do
+Gemfile e rodando bundle install.</p>
+
+<p><img src="http://i2.minus.com/igKjxhShquGbQ.png" alt="Inline image 10" /></p>
+
+<p>Oh, fuck! Another problem. O bundle install deu pau de novo.
+<img src="http://i4.minus.com/ibnFLRCe0dNn2L.png" alt="Inline image 11" /></p>
+
+<p>Agora parece que é algo relacionado a um tal de g++ (UM TAL DE G++? MOTHER FUCKER).
+Ah, é. Também não tenho instalado no meu Linux recém instalado. :B</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>sudo apt-get install g++
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Agora é só rodar bundle install de novo e correr pro abraço. Dá um &lsquo;rails s&rsquo; aí
+pra ver se funciona agora. Se sim, o servidor é iniciado na porta 3000 (padrão do
+Rails). Pra ver sua aplicação Rails rodando, é só visitar <a href="http://localhost:3000.">http://localhost:3000.</a></p>
+
+<p>No treinamento, hoje, a gente ainda deu uma olhada básica na estrutura do projeto
+Rails e começamos a desenvolver alguma coisa. Deixarei isso para uma outra ocasião
+por que esta mensagem já está assaz comprida.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Documentação Automática De Haskell Com Haddock]]></title>
+    <link href="http://embs.blog.br/blog/2012/03/17/documentacao-automatica-de-haskell-com-haddock/"/>
+    <updated>2012-03-17T18:43:17-03:00</updated>
+    <id>http://embs.blog.br/blog/2012/03/17/documentacao-automatica-de-haskell-com-haddock</id>
+    <content type="html"><![CDATA[<p>E aí!</p>
+
+<p>O <a href="http://www.haskell.org/haddock/">Haddock</a> é uma ferramenta de geração
+automática de documentação para código Haskell. Atualmente, apesar de eventuais
+bugs e dificuldades de utilização, ele está sendo mantido por seus idealizadores.
+Quem utiliza GHC provavelmente já dispõe do comando <code>&gt; haddock</code>.</p>
+
+<p>Depois de labutar um bocado, consegui gerar documentação em formato HTML a partir
+de meu código Haskell.</p>
+
+<!-- more -->
+
+
+<ul>
+<li>O código</li>
+</ul>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="c1">-- | &#39;Primos&#39; agrega funções relacionadas aa primalidade dos numerais.</span>
+</span><span class='line'><span class="kr">module</span> <span class="nn">Primos</span> <span class="kr">where</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'><span class="c1">-- | A função &#39;crivo&#39; recebe um número maior que zero e retorna uma lista de Int com todos os números primos até n. Ela utiliza a função &#39;ehPrimo&#39; para descobrir se um número é primo. :)</span>
+</span><span class='line'><span class="p">;</span>
+</span><span class='line'><span class="nf">crivo</span> <span class="ow">::</span> <span class="kt">Int</span> <span class="ow">-&gt;</span> <span class="p">[</span><span class="kt">Int</span><span class="p">];</span>
+</span><span class='line'><span class="nf">crivo</span> <span class="n">n</span> <span class="ow">=</span> <span class="kr">if</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="mi">2</span> <span class="kr">then</span> <span class="kt">[]</span> <span class="kr">else</span> <span class="p">[</span><span class="n">y</span> <span class="o">|</span> <span class="n">y</span> <span class="ow">&lt;-</span> <span class="p">[</span><span class="mi">2</span><span class="o">..</span><span class="n">n</span><span class="p">],</span> <span class="n">ehPrimo</span> <span class="n">y</span><span class="p">];</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">-- | &#39;ehPrimo&#39; recebe um número inteiro maior que zero e retorna True se ele for primo ou False caso contrário.</span>
+</span><span class='line'><span class="p">;</span>
+</span><span class='line'><span class="nf">ehPrimo</span> <span class="ow">::</span> <span class="kt">Int</span> <span class="ow">-&gt;</span> <span class="kt">Bool</span><span class="p">;</span>
+</span><span class='line'><span class="nf">ehPrimo</span> <span class="mi">1</span> <span class="ow">=</span> <span class="kt">False</span><span class="p">;</span>
+</span><span class='line'><span class="nf">ehPrimo</span> <span class="n">n</span> <span class="ow">=</span> <span class="p">(</span><span class="n">null</span> <span class="p">[</span><span class="n">y</span> <span class="o">|</span> <span class="n">y</span> <span class="ow">&lt;-</span> <span class="p">[</span><span class="mi">1</span><span class="o">..</span><span class="p">(</span><span class="n">truncate</span><span class="p">(</span><span class="n">sqrt</span> <span class="p">(</span><span class="n">fromIntegral</span> <span class="n">n</span><span class="p">)))],</span> <span class="n">n</span> <span class="p">`</span><span class="n">mod</span><span class="p">`</span> <span class="n">y</span> <span class="o">==</span> <span class="mi">0</span><span class="p">,</span> <span class="n">y</span> <span class="o">/=</span> <span class="n">n</span><span class="p">,</span> <span class="n">y</span> <span class="o">/=</span> <span class="mi">1</span><span class="p">]);</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>O comando</li>
+</ul>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>mkdir HaddockDoc
+</span><span class='line'><span class="nv">$ </span>haddock -h -o HaddockDoc/ Primos.hs
+</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>O Resultado</li>
+</ul>
+
+
+<p>Você vê abrindo o index.html na nova pasta HaddockDoc</p>
+
+<p>Valeu!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Instalando Sublime Text 2 No Ubuntu]]></title>
+    <link href="http://embs.blog.br/blog/2012/03/17/instalando-sublime-text-2-no-ubuntu/"/>
+    <updated>2012-03-17T18:36:07-03:00</updated>
+    <id>http://embs.blog.br/blog/2012/03/17/instalando-sublime-text-2-no-ubuntu</id>
+    <content type="html"><![CDATA[<p>Oi, pessoal!</p>
+
+<p>Segue uma dica de como instalar o Sublime Text 2 [<a href="http://www.sublimetext.com/">http://www.sublimetext.com/</a>]
+no Ubuntu. Um colega de trabalho utiliza o editor de texto em seu ambiente e me
+recomendou. À primeira vista, me pareceu uma ferramenta esplêndida!</p>
+
+<ul>
+<li>Adicione o repositório extra-oficial do editor de texto</li>
+</ul>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>sudo apt-add-repository ppa:webupd8team/sublime-text-2
+</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>Atualize os repositórios</li>
+</ul>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>sudo apt-get update
+</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>Instalação</li>
+</ul>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>sudo apt-get install sublime-text-2
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Fonte: <a href="http://www.zerokol.com/2012/01/instalando-sublime-text-2-no-ubuntu-via.html">http://www.zerokol.com/2012/01/instalando-sublime-text-2-no-ubuntu-via.html</a></p>
+]]></content>
+  </entry>
+  
+</feed>

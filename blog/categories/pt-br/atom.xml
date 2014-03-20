@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categoria: pt_BR | Título do Blog]]></title>
+  <link href="http://embs.blog.br/blog/categories/pt-br/atom.xml" rel="self"/>
+  <link href="http://embs.blog.br/"/>
+  <updated>2014-03-20T15:40:14-03:00</updated>
+  <id>http://embs.blog.br/</id>
+  <author>
+    <name><![CDATA[embs]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Uma Introdução a Projetos De Código Livre E Aberto]]></title>
+    <link href="http://embs.blog.br/blog/2014/03/18/uma-introducao-a-projetos-de-codigo-livre-e-aberto/"/>
+    <updated>2014-03-18T22:33:20-03:00</updated>
+    <id>http://embs.blog.br/blog/2014/03/18/uma-introducao-a-projetos-de-codigo-livre-e-aberto</id>
+    <content type="html"><![CDATA[<p><strong>TL;DR</strong> Se você não quiser gastar tempo e / ou energia adicionais, uma introdução
+muito mais relevante (e citada mais adiante, nesta mesma postagem) é dada pelo
+texto <a href="http://www.catb.org/esr/writings/cathedral-bazaar/cathedral-bazaar/">The Cathedral and the Bazaar</a>,
+por Eric S. Raymond.</p>
+
+<p>Um (não tão) breve comentário sobre a filosofia por trás dos projetos de software
+de código livre e aberto. Detalhe sobre o contexto: o texto é, originalmente, uma
+postagem no fórum da disciplina de Seminários em Gerenciamento de Dados e Informação
+(aka Tecnologia, Lei e Sociedade ou Tecnologia e Convivência) e é datado de 11 de
+Março de 2014 (há uma semana).</p>
+
+<!-- more -->
+
+
+<p><em>Fiz alusão às ideias de Yochai Benkler em meu comentário no tópico de Sharing Economy, mencionando como alguns dos temas abordados no contexto da disciplina se relacionam (a saber, Tecnologias Cívicas, Open Data, Sharing Economy e Transparência na Era Digital &mdash; que foram os assuntos abordados por mim, Flávio, Augusto e Renato em nosso <a href="https://www.youtube.com/watch?v=ubU0g71fvXA">vídeo-debate</a>).</em></p>
+
+<p><em>Não é de se admirar que, além desses que citei, outros tópicos também tenham conexões entre si &mdash; já que pertencem à macro-categoria de Tecnologia, Lei e Sociedade, que dá nome à disciplina. Os pensamentos defendidos por Yochai carregam, além de vários outros, fundamentos do crowdsourcing &mdash; que é, também, tópico de uma das sessões.</em></p>
+
+<p><em>Em suas obras, o ser senciente logra êxito ao desbravar o até então pouco conhecido mundo cibernético &mdash; que em muito se baseia em protocolos abertos de livre utilização / modificação e construção colaborativa através do esforço de milhares de pessoas de todo o planeta. Em seu livro de 2006, O Pinguim e o Leviatã, Benkler utiliza o mais patente caso de como a colaboração espontânea e altruísta pode se sobrepor aos interesses individuais egocentristas e, assim, construir melhores equipes, software, protocolos e, de maneira bastante ampla, tecnologias em geral.</em></p>
+
+<p><em>O exemplo que inspira a capa do livro é só um de tantos outros projetos livres e de código aberto que abriram precedente para a discussão acerca da dicotomia de um modelo de desenvolvimento de software realizado por alguns poucos peritos e outro &mdash; assaz divergente &mdash; em que o código é construído colaborativamente por pessoas de todos os lugares que possivelmente nem ao menos se conhecem.</em></p>
+
+<p><em>Quem teve a oportunidade de assistir às aulas da disciplina de FLOSS (Free and Open Source Software), ministrada pelo professor Fernando Castor, já sabe do que estou tratando. A divergência entre esses modelos dotados de características diametralmente opostas se tornou de conhecimento público principalmente após a publicação do artigo <a href="http://www.catb.org/esr/writings/cathedral-bazaar/cathedral-bazaar/">The Cathedral and the Baazar</a>, por Eric S. Raymond (também conhecido por suas iniciais, ESR).</em></p>
+
+<p><em>Em seu texto, ESR expõe sua opinião a respeito de como o Linux conseguiu aquilo que todos (inclusive ele próprio) supunham inalcançável: construir algo tão complexo quanto um sistema operacional através da colaboração, em um projeto que aparentemente não dispunha de uma gestão adequada &mdash; gestão tal que seria impossível devido às condições de execução. O autor também publica mais frequentemente em seu <a href="http://esr.ibiblio.org/">blog</a> e, <a href="http://beta.slashdot.org/story/199209">nesta sessão de perguntas e respostas</a> (datada de ontem), ele responde a vários questionamentos pertinentes ao tema &mdash; inclusive o que mudou depois de quase 20 anos da publicação do The Cathedral and the Baazar.</em></p>
+
+<p><em>Trazendo as ideias e ideais expostos por ESR e defendidos por Benkler para o nosso contexto, dois colegas do Centro de Informática publicaram, há pouco tempo, um estudo sobre o desenvolvimento de projetos de código aberto e afins no Brasil &mdash; no trabalho intitulado <a href="http://t.co/Bos4oeGJhC">The Census of the Brazilian Open-Source Community</a>, por Gustavo Pinto e Fernando Kamei.</em></p>
+
+<p><em>O tópico dá margem para uma discussão prolífica e projetos FLOSS são, por si só, um assunto ainda a ser amplamente estudado e adotado pelos alunos do centro. O envolvimento com um projeto grande desse tipo é uma ótima oportunidade de adquirir habilidades pessoais e profissionais nas mais diversas áreas. Indico a disciplina de Desenvolvimento de de Software de Código Aberto/Livre (FLOSS, ministrada por Castor) que, inclusive, foi palco para uma das palestras do professor Ruy sobre as ideias de Yochai Benkler na edição em que paguei a disciplina.</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Redu + Open Source = Open Redu]]></title>
+    <link href="http://embs.blog.br/blog/2014/03/18/redu-plus-open-source-equals-open-redu/"/>
+    <updated>2014-03-18T18:31:19-03:00</updated>
+    <id>http://embs.blog.br/blog/2014/03/18/redu-plus-open-source-equals-open-redu</id>
+    <content type="html"><![CDATA[<p>Fiquei muito contente ao saber, há algum tempo, que o <a href="http://developers.redu.com.br/">Redu</a>
+abriria seu código. A decisão de transformar o código, até então proprietário,
+em software livre e de código aberto (ou <a href="https://en.wikipedia.org/wiki/Free_and_open_source_software">FLOSS</a>,
+do inglês, <strong>F</strong>ree / <strong>L</strong>ibre and <strong>O</strong>pen-<strong>S</strong>ource <strong>S</strong>oftware) pode parecer
+um tanto controversa e bastante contra-intuitiva, se analisado o modelo de negócio
+que o Redu se propunha incialmente. No entanto, se pensarmos com mais profundidade
+sobre o que é o Redu e quais as consequências da abertura dó código, poderemos
+descobrir por que abrir o código faz todo sentido.</p>
+
+<!-- more -->
+
+
+<p>O Redu é uma plataforma para ensino à distância que possui elementos de rede social
+&mdash; com vistas à facilitação e à suplementação das atividades de ensino. Desenvolvido
+majoritariamente com Ruby on Rails, o projeto nasceu no Centro de Informática da
+UFPE, conduzido inicialmente por um núcleo de estudantes sob mentoria do professor
+<a href="http://cin.ufpe.br/~asg/">Alex Sandro Gomes</a>.</p>
+
+<p>A equipe cresceu (junto com o projeto) e foi incubada na Cais do Porto, incubadora
+do <a href="http://www.portodigital.org/">Porto Digital</a>, no Recife. Foi lá que &mdash; depois
+de ter ficado curioso sobre o projeto, que me foi apresentado durante uma das aulas
+do professor Alex Sandro &mdash; tive a experiência acadêmica / profissional mais proveitosa
+desde o meu ingresso na UFPE.</p>
+
+<p>Passei um ano em convívio quase que diário com pessoas mais espertas, bonitas e
+divertidas que eu &mdash; e, é claro, como bom sertanejo que sou, aproveitei isso o
+máximo que pude. Minha mentalidade e atitude quanto às formas de realizar atividades
+cotidianas de um desenvolvedor de software (ou criador de soluções com base em
+tegnologias digitais) foram completamente trasformadas &mdash; da água para o vinho ou,
+para fazer uma analogia mais apropriada ao contexto, do Windows para o Linux.</p>
+
+<p>Foi também durante este proveitoso período que tive oportunidade de participar das
+aulas de uma das disciplinas mais legais oferecidas no centro: Tópicos Avançados
+em Linguagens Computacionais (aka FLOSS ou <a href="https://sites.google.com/a/cin.ufpe.br/floss/">Desenvolvimento de Software de Código Aberto / Livre</a>), ministrada pelo professor <a href="http://www.cin.ufpe.br/~fjclf">Fernando Castor</a>.</p>
+
+<p>A disciplina conta com atividades que estimulam o envolvimento dos participantes em
+projetos FLOSS &mdash; além de conteúdo relevante no que concerne a gerenciamento de
+projetos open source, licenciamento de projetos afins e outras questões associadas.
+Descobri &mdash; àquela época &mdash; que compartilhava mais coisas com <a href="https://www.google.com.br/search?q=richard+stallman">Richard M. Stallman</a>
+além de uma barba horrenda e o nome do meio.</p>
+
+<p>Tecnologia, por definição, não deve ser vista como o fim &mdash; mas como o meio. A
+prática capitalista agressiva que visa lucro acima de tudo defende a monetização
+a partir de tudo e de todos mas projetos FLOSS grandes (como Linux, git, LaTeX e
+tantos outros) mostram que o rendimento financeiro nem sempre figura como principal
+motivação para desenvolvimento de software de qualidade.</p>
+
+<p>Seguindo essa linha de raciocínio, não é preciso muito esforço para trazer à tona
+a ligação intrínseca que existe entre a filosofia do pensamento reduniano (isto é,
+relativo ao Redu) de potencialização do talento das pessoas e a dos preceitos do
+FLOSS &mdash; de abertura, colaboração e crescimento mutual (comunidade + projeto).</p>
+
+<p>As desveladas linhas deste singelo texto depõem minha mais sincera e veemente
+empolgação. Estou certo de que o Redu e sua nova comunidade têm um promissor
+caminho a trilhar e espero participar dele da maneira que for mais valiosa para
+o nosso crescimento!</p>
+
+<p>\o/</p>
+
+<p>P.S.: um terno e carinhoso abraço aos meus queridos amigos redunianos Guila, Déds,
+Tiago, Jubs, Sérgio, Tacsio, Wandj, Varjão, Bruno(s), Jess, Thaís e todos com quem
+eu tive o prazer de aprender tanto. Hands on!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Pro Inferno Com Configuração De Ambiente De Desenvolvimento!]]></title>
+    <link href="http://embs.blog.br/blog/2014/01/21/pro-inferno-com-configuracao-de-ambiente-de-desenvolvimento/"/>
+    <updated>2014-01-21T20:03:45-03:00</updated>
+    <id>http://embs.blog.br/blog/2014/01/21/pro-inferno-com-configuracao-de-ambiente-de-desenvolvimento</id>
+    <content type="html"><![CDATA[<p><strong>TL;DR</strong> <a href="http://nitrous.io">http://nitrous.io</a></p>
+
+<p>A labuta pra configurar um ambiente de desenvolvimento RoR com sucesso não é de
+hoje: <a href="https://gist.github.com/guiocavalcanti/1600711">gist</a> de <a href="https://github.com/guiocavalcanti">Guila</a>,
+<a href="https://gist.github.com/embs/3614398">gist meu</a> (forkado do de Guila :B),
+<a href="/2013/02/06/configurando-ambiente-de-desenvolvimento-rails-e-criando-um-novo-projeto/">postagem em blog</a>
+e tudo o mais. Recentemente eu quebrei a cabeça com utilização de máquinas
+virtuais (o que <strong>demora pra caralho</strong>) e tentativas frustradas de usar um HD
+externo pra bootar nas máquinas do CIn/UFPE.</p>
+
+<p><img src="http://i.minus.com/ibov54MlubiLia.png" alt="nitrous" /></p>
+
+<p>Hoje o <a href="http://nitrous.io">Nitrous</a> salvou a minha pele. Se você tem alguma
+proficiência com a utilização de aplicações web, vá lá e faça seu nome. Se não,
+continue a leitura e acompanhe um passo-a-passo pra rodar uma aplicação RoR na
+nuvem em <strong>pouquíssimo</strong> tempo.</p>
+
+<!-- more -->
+
+
+<p>Antes de qualquer coisa, você precisa de uma conta para utilizar o serviço: dá
+pra criar na <a href="http://nitrous.io">home</a> ou se cadastrar usando o <a href="https://www.nitrous.io/users/auth/github">Github</a>,
+<a href="https://www.nitrous.io/users/auth/google_oauth2">Google+</a> ou <a href="https://www.nitrous.io/users/auth/linkedin">Linkedin</a>.
+(Eita! Não tem FB. :D)</p>
+
+<p>Uma vez autenticado, é só clicar em <code>New Box</code>. A tela pra criação de um novo &ldquo;box&rdquo;
+é bastante simples e intuitiva (+1 pra galera do Nitrous). Aqui, deixei o nome
+da app que eles sugeriram (inspirados em Game of Thrones :D) e selecionei a região
+&ldquo;South America&rdquo;. Acho que não dá pra melhorar as specs da máquina virtual no plano
+gratuito mas pela experiência que tive com esse plano, tudo rodou <strong>muito</strong> rápido
+e eficientemente. Aliás, não dá pra reclamar de uma máquina com 384Mb de ram e
+750MB de armazenamento em massa se você não pretende jogar GTA V nela (e, basicamente,
+rodar só o terminal).</p>
+
+<p><img src="http://i.minus.com/ib2vdoCif32F5l.png" alt="create-box" /></p>
+
+<p><code>Create Box</code> e:</p>
+
+<p><img src="http://i.minus.com/iGeyT4i1ZXK8o.png" alt="provisioning" /></p>
+
+<p>Na página de visualização de seus boxes, selecione o box recém-criado e clique
+em <code>IDE</code>. A tela que você deve ver é uma como a que segue:</p>
+
+<p><img src="http://i.minus.com/i8a2bakwQNj7m.png" alt="IDE" /></p>
+
+<p>Ou seja: um editor de texto muito parecido com o Sublime Text e um console &mdash;
+tudo o que precisamos para começar a desenvolver! \o/ Rodei alguns comandos
+pra dar uma mostra do que temos ao nosso dispor:</p>
+
+<p><code>bash
+$ cd workspace
+$ ruby -v
+$ rails -v
+$ rvm -v
+</code></p>
+
+<p>Mas não vamos começar do zero. Clone o código do <a href="https://github.com/embs/bdance">BDance</a>
+&mdash; projeto que deve ser assunto de uma postagem em breve.</p>
+
+<p><code>bash
+$ git clone https://github.com/embs/bdance.git # o git também já está instalado
+</code></p>
+
+<p>Fiz o clone via HTTPS mas dá pra configurar chaves SSH no Nitrous pra permitir
+o clone via SSH (não testei isso ainda). Dê um <code>cd</code> para o diretório criado pelo
+comando <code>git clone</code> e bote o negócio pra rodar!</p>
+
+<p><code>bash
+$ bundle                # instala dependências
+$ rake db:create:all       # cria bases de dados
+$ rake db:migrate          # cria tabelas
+$ rake bootstrap:all    # povoa base de dados com informações fakes (ou quase isso)
+$ rails s
+</code></p>
+
+<p>Não encane se o <code>rake bootstrap:all</code> não rolar. Fiz isso hoje e não sei qual
+será o seu futuro&hellip; Uma vez que o servidor Rails estiver rodando, clique (lá
+no menu do topo da página) em <code>Preview</code> e selecione <code>Port 3000</code> (que é a porta
+utilizada pelo servidor Rails por padrão).</p>
+
+<p>Agora é só brincar com a aplicação Rails hosteada no Nitrous e descobrir outros
+serviços que a plataforma oferece. Pense num negócio arretado!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Como Fazer Deploy De Aplicações Rails No Heroku]]></title>
+    <link href="http://embs.blog.br/blog/2013/03/07/como-fazer-deploy-de-aplicacoes-rails-no-heroku/"/>
+    <updated>2013-03-07T19:37:13-03:00</updated>
+    <id>http://embs.blog.br/blog/2013/03/07/como-fazer-deploy-de-aplicacoes-rails-no-heroku</id>
+    <content type="html"><![CDATA[<p>Você vai precisar de:</p>
+
+<ul>
+<li>Conta no <a href="http://www.heroku.com/">Heroku</a>;</li>
+<li><a href="http://naofalacomputa.blogspot.com.br/2013/02/configurando-ambiente-de.html">Ambiente preparado</a> para criação de app Rails;</li>
+</ul>
+
+
+<p>Vamos, primeiro, criar a aplicação Rails:
+<code>bash
+$ rails new hello_heroku
+</code>
+Já temos uma aplicação Rails pronta para ser mandada ao ambiente de produção do Heroku, certo? Certo. Mas vamos fazer uma modificação mínima para que a aplicação não fique apenas na tela de boas vindas do Rails. Remova o arquivo public/index.html e adicione uma nova rota ao config/routes.rb
+```ruby</p>
+
+<h1>routes.rb</h1>
+
+<p>HelloHeroku::Application.routes.draw do
+  root to: &lsquo;welcome#index&rsquo;
+  # ou root :to => &lsquo;welcome#index&rsquo; se você estiver usando uma versão do ruby &lt; 1.9
+end
+```</p>
+
+<!-- more -->
+
+
+<p>Isso fará com que qualquer requisição get à raiz da nossa aplicação seja direcionado para a action index do nosso controlador WelcomeController (que, por sinal, ainda não temos) &mdash; como podemos ver ao executar &lsquo;rake routes&rsquo;:</p>
+
+<p><img src="http://i.minus.com/ibkNUWUx72wCGL.png" alt="img" /></p>
+
+<p>O próximo passo é óbvio: criar o WelcomeController. Para evitar qualquer arquivo desnecessário que o generator do Rails pode, eventualmente, criar, façamos isso na mão. Basta criar um arquivo chamado welcome_controller.rb no diretório app/controllers/ com uma única action vazia index:
+```ruby</p>
+
+<h1>app/controllers/welcome_controller.rb</h1>
+
+<p>class WelcomeController &lt; ApplicationController
+  def index
+  end
+end
+<code>
+Como não fazemos nada na action index, ela simplesmente irá renderizar a view index.html.erb que deve estar presente em app/views/welcome/:
+</code>erb
+&lt;%# app/views/welcome/index.html.erb %>
+<b>Hello, Heroku!</b><br />
+&lt;%= l Time.now, format: :short %>
+```
+Pronto. Nossa prolífica aplicação Rails está pronta para ir pra produção! Se tiver dado tudo certo até aqui, você deve visualizar algo parecido com a imagem abaixo ao rodar o servidor (rails s) e acessar &lsquo;localhost:3000&rsquo;:</p>
+
+<p><img src="http://i.minus.com/iZZAZSDzx9co5.png" alt="img" /></p>
+
+<p>O próximo passo é criar a aplicação no Heroku. Para isso, é necessário que você disponha do ToolBelt do Heroku &mdash; uma espécie de kit de ferramentas composto por comandos que tornam a tarefa de deploy (e outras) trivial. O ToolBelt pode ser instalado facilmente e as instruções para instalação são encontradas no próprio sítio do Heorku. Em sistemas Debian-like, é feito com um único passo:
+<code>bash
+$ wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+</code>
+ToolBelt instalado, é hora de autenticar com a conta do Heroku (com o comando &lsquo;heroku login&rsquo;). Por exemplo:</p>
+
+<p><img src="http://i.minus.com/ibkG6ZxcMa4eUd.png" alt="img" /></p>
+
+<p>Depois basta criar a app no Heroku usando o comando heroku apps:create (seja mais criativo que eu e escolha um nome que ainda não exista entre as apps cadastradas no Heroku):</p>
+
+<p><img src="http://i.minus.com/i8Lx4s1ryZRgi.png" alt="img" /></p>
+
+<p>Pra terminar, vamos dar o deploy &mdash; que é tão fácil quanto dar um push usando o Git. Na verdade, é um push usando o Git. &ldquo;Mas, peraí, você não disse nada de Git e agora vem com essa história aí&hellip; vou ter que saber usar essa parada pra poder dar o deploy, pensei que fosse fácil, não vale a pena usar isso, não, é melhor pagar por uma solução mais fácil ou já sei: vou pagar pra alguém fazer isso pra mim&rdquo; é o que você vai pensar se souber usar vírgulas no pensamento. Pois é. Continue chorando ou instale e configure o Git (se você estiver usando Windows, sugiro que continue chorando).</p>
+
+<p>O Github possui artigos muito bons que ajudam pra caralho quando se encontra algum problema relacionado ao Git. Problemas com chaves, por exemplo: <a href="https://help.github.com/articles/generating-ssh-keys.">https://help.github.com/articles/generating-ssh-keys.</a> É só procurar. <a href="https://help.github.com">https://help.github.com</a> :)</p>
+
+<p>Agora que você já deu a última soluçada do pranto e decidiu não mudar de aba me xingando, vamos adicionar o remoto que o Heroku dispõe para toda app que é hosteada lá e que pode ser encontrado clicando nos links no Heroku: Apps >> NomeDeSuaApp >> Settings</p>
+
+<p><img src="http://i.minus.com/irxiP8YXet3R5.png" alt="img" /></p>
+
+<p>Aí está: git@heroku.com:hello-heroku-naofalacomputa.git. Dava até pra ter inferido. Enfim&hellip;</p>
+
+<p><img src="http://i.minus.com/iOWRWpFtvp0Fn.png" alt="img" /></p>
+
+<p>Ah, gordo escroto, não dá pra copiar e colar da imagem. Vou quebrar teu galho&hellip;
+```bash</p>
+
+<h1>inicia repositório git</h1>
+
+<p>$ git init</p>
+
+<h1>adiciona remote do heroku</h1>
+
+<p>$ git remote add heroku SUA_URL_GIT</p>
+
+<h1>lista seus remotos</h1>
+
+<p>$ git remote -v
+<code>
+Agora, sim, é só dar o push!
+</code></p>
+
+<h1>não sem antes criar o commit, claro :)</h1>
+
+<p>$ git add . # adiciona tudo</p>
+
+<p>$ git commit -m &ldquo;Primeiro commit&rdquo; # cria o commit</p>
+
+<p>$ git push heroku master # deploy!
+```
+O resultado do push pro Heroku é assaz comprido. Divirta-se com a leitura. Se você não fez nenhuma merda e for um bom aprendiz, deve ver a aplicação rodando na URL da app no Heroku:</p>
+
+<p><img src="http://i.minus.com/ibabshYbOOa6iB.png" alt="img" /></p>
+
+<h3>Observação Importante e Bastante Pertinente</h3>
+
+<p>O Rails, por default, utiliza a gem do sqlite. O Heroku, compulsoriamente, utiliza um BD Postgres. Se você tentar dar deploy de uma app Rails com a gem do sqlite listada no seu Gemfile, vai dar merda. Remova ou comente a linha que especifica essa gem, adicione uma linha especificando a gem do Postgres (&ldquo;gem &lsquo;pg&rsquo;&rdquo;) e não esqueça de rodar o bundle antes de criar o novo commit para o push correto pro Heroku.</p>
+
+<h3>Observação Pertinente mas de Pouca Importância</h3>
+
+<p>Não, eu não estou às 3h da matina do dia 07 de Março escrevendo um tutorial de como fazer deploy de aplicações Rails no Heroku. A hora apareceu assim deturpada por conta da configuração da localização da app Rails. Mas isso fica pra uma próxima&hellip;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Guia Rápido Para Instalação E Configuração Do PostgreSQL]]></title>
+    <link href="http://embs.blog.br/blog/2013/03/02/guia-rapido-para-instalacao-e-configuracao-do-postgresql/"/>
+    <updated>2013-03-02T19:26:45-03:00</updated>
+    <id>http://embs.blog.br/blog/2013/03/02/guia-rapido-para-instalacao-e-configuracao-do-postgresql</id>
+    <content type="html"><![CDATA[<h3>Um Pouco de Blábláblá</h3>
+
+<p>Ontem eu tive minha primeira experiência (pra valer) de utilização do PuppyLinux [1][2]. Quis experimentar o S.O. por que as máquinas do Centro de Informática tolhem completamente o usuário comum (leia-se aluno) quanto à instalação de ferramentas e, desenvolvendo um projeto RoR atualmente, preciso instalar várias delas.</p>
+
+<p>A ideia inicial é, portanto, rodar um ambiente de desenvolvimento Ruby on Rails direto de um pendrive com o S.O. PuppyLinux. Nesta postagem não abordarei o processo completo de setup do ambiente (que me custou a tarde e a noite de ontem) mas apenas uma das partes &mdash; supostamente &mdash; mais laboriosas: a instalação (na mão, é claro) do PostgreSQL.</p>
+
+<!-- more -->
+
+
+<h3>1º Passo: Download</h3>
+
+<p>A página de download do Postgres fornece binários pré-compilados para vários S.O.s. No meu caso, pra instalar no Puppy, baixei o fonte desta página. A versão que escolhi foi a 9.1.7 [3].</p>
+
+<h3>2º Passo: Compilar e instalar</h3>
+
+<p>Descompactação:
+<code>bash
+$ tar xvjf postgresql-9.1.7.tar.bz2
+</code>
+Mudar para o diretório novo:
+<code>bash
+$ cd postgresql-9.1.7/
+</code>
+Preparar instalação:
+<code>bash
+$ ./configure
+</code>
+e
+<code>bash
+$ gmake
+</code>
+Mudar para usuário super:
+<code>bash
+$ su
+</code>
+Instalar: asd
+```bash</p>
+
+<h1>gmake install</h1>
+
+<p>```</p>
+
+<h3>3º Passo: Configurar e rodar</h3>
+
+<p>Criar o usuário (no Linux) &lsquo;postgres&rsquo;:
+```bash</p>
+
+<h1>adduser postgres</h1>
+
+<p><code>
+Criar o diretório onde ficarão os arquivos do BD:
+</code>bash</p>
+
+<h1>mkdir /usr/local/pgsql/data</h1>
+
+<p><code>
+Dar permissão ao usuário postgres:
+</code>bash</p>
+
+<h1>chown postgres /usr/local/pgsql/data</h1>
+
+<p><code>
+Mudar para usuário postgres:
+</code>bash</p>
+
+<h1>su &ndash; postgres</h1>
+
+<p><code>
+Iniciar o banco:
+</code>bash</p>
+
+<h1>/usr/local/pgsql/bin/initdb -D /usr/local/pgsql/data</h1>
+
+<p><code>
+Iniciar o processo do Postgres:
+</code>bash</p>
+
+<h1>/usr/local/pgsql/bin/postgres -D /usr/local/pgsql/data >logfile 2>&amp;1 &amp;</h1>
+
+<p>```</p>
+
+<h3>4º Passo: Testar a criação de um banco</h3>
+
+<p>```bash</p>
+
+<h1>/usr/local/pgsql/bin/createdb test</h1>
+
+<p><code>
+e, para acessar o banco:
+</code>bash</p>
+
+<h1>/usr/local/pgsql/bin/psql test</h1>
+
+<p>```</p>
+
+<h3>5º Post-Install: Linkar comandos e criar um outro usuário</h3>
+
+<p>Não sei se você percebeu mas, para rodar os comandos do postgres nas linhas de comando anteriores, precisamos utilizar o caminho completo para o diretório onde o comando se encontra. Isso é um saco. Pra resolver, criei links simbólicos para todos os comandos presentes em &ldquo;/usr/local/psql/bin/psql&rdquo;. Assim:
+```bash</p>
+
+<h1>for f in $(ls -d /usr/local/pgsql/bin/*); do ln -s $f /usr/local/bin; done</h1>
+
+<p><code>
+Agora só falta uma coisa: criar um usuário do Postgres com o nome do seu usuário Linux. Saia do usuário super (com um simples 'exit') e comande:
+</code>bash
+$ sudo -u postgres createuser &mdash;superuser $USER
+<code>
+E finalmente, para configurar uma senha para seu novo usuário, acesse a ferramenta de linha de comando do Postgres:
+</code>bash
+$ sudo -u postgres psql
+<code>
+e (substitua $USER pelo nome de seu usuário Linux)
+</code>bash
+postgres=# \password $USER
+```
+Beleza. Agora você já pode acessar o Posgres com o seu usuário e, no caso de estar desenvolvendo um projeto Rails, configurar o database.yml com seus dados de usuário e senha.</p>
+
+<h3>Referências</h3>
+
+<ul>
+<li>[1] <a href="http://puppylinux.com">http://puppylinux.com</a></li>
+<li>[2] <a href="http://puppylinux.org">http://puppylinux.org</a></li>
+<li>[3] <a href="http://ftp.postgresql.org/pub/source/v9.1.7/postgresql-9.1.7.tar.bz2">http://ftp.postgresql.org/pub/source/v9.1.7/postgresql-9.1.7.tar.bz2</a></li>
+<li>[4] <a href="http://www.postgresql.org/docs/9.0/static/install-short.html">http://www.postgresql.org/docs/9.0/static/install-short.html</a></li>
+<li>[5] <a href="http://www.commandlinefu.com/commands/view/1225/symlink-all-files-from-a-base-directory-to-a-target-directory">http://www.commandlinefu.com/commands/view/1225/symlink-all-files-from-a-base-directory-to-a-target-directory</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

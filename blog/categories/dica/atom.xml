@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categoria: Dica | Título do Blog]]></title>
+  <link href="http://embs.blog.br/blog/categories/dica/atom.xml" rel="self"/>
+  <link href="http://embs.blog.br/"/>
+  <updated>2014-03-20T15:40:14-03:00</updated>
+  <id>http://embs.blog.br/</id>
+  <author>
+    <name><![CDATA[embs]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Pro Inferno Com Configuração De Ambiente De Desenvolvimento!]]></title>
+    <link href="http://embs.blog.br/blog/2014/01/21/pro-inferno-com-configuracao-de-ambiente-de-desenvolvimento/"/>
+    <updated>2014-01-21T20:03:45-03:00</updated>
+    <id>http://embs.blog.br/blog/2014/01/21/pro-inferno-com-configuracao-de-ambiente-de-desenvolvimento</id>
+    <content type="html"><![CDATA[<p><strong>TL;DR</strong> <a href="http://nitrous.io">http://nitrous.io</a></p>
+
+<p>A labuta pra configurar um ambiente de desenvolvimento RoR com sucesso não é de
+hoje: <a href="https://gist.github.com/guiocavalcanti/1600711">gist</a> de <a href="https://github.com/guiocavalcanti">Guila</a>,
+<a href="https://gist.github.com/embs/3614398">gist meu</a> (forkado do de Guila :B),
+<a href="/2013/02/06/configurando-ambiente-de-desenvolvimento-rails-e-criando-um-novo-projeto/">postagem em blog</a>
+e tudo o mais. Recentemente eu quebrei a cabeça com utilização de máquinas
+virtuais (o que <strong>demora pra caralho</strong>) e tentativas frustradas de usar um HD
+externo pra bootar nas máquinas do CIn/UFPE.</p>
+
+<p><img src="http://i.minus.com/ibov54MlubiLia.png" alt="nitrous" /></p>
+
+<p>Hoje o <a href="http://nitrous.io">Nitrous</a> salvou a minha pele. Se você tem alguma
+proficiência com a utilização de aplicações web, vá lá e faça seu nome. Se não,
+continue a leitura e acompanhe um passo-a-passo pra rodar uma aplicação RoR na
+nuvem em <strong>pouquíssimo</strong> tempo.</p>
+
+<!-- more -->
+
+
+<p>Antes de qualquer coisa, você precisa de uma conta para utilizar o serviço: dá
+pra criar na <a href="http://nitrous.io">home</a> ou se cadastrar usando o <a href="https://www.nitrous.io/users/auth/github">Github</a>,
+<a href="https://www.nitrous.io/users/auth/google_oauth2">Google+</a> ou <a href="https://www.nitrous.io/users/auth/linkedin">Linkedin</a>.
+(Eita! Não tem FB. :D)</p>
+
+<p>Uma vez autenticado, é só clicar em <code>New Box</code>. A tela pra criação de um novo &ldquo;box&rdquo;
+é bastante simples e intuitiva (+1 pra galera do Nitrous). Aqui, deixei o nome
+da app que eles sugeriram (inspirados em Game of Thrones :D) e selecionei a região
+&ldquo;South America&rdquo;. Acho que não dá pra melhorar as specs da máquina virtual no plano
+gratuito mas pela experiência que tive com esse plano, tudo rodou <strong>muito</strong> rápido
+e eficientemente. Aliás, não dá pra reclamar de uma máquina com 384Mb de ram e
+750MB de armazenamento em massa se você não pretende jogar GTA V nela (e, basicamente,
+rodar só o terminal).</p>
+
+<p><img src="http://i.minus.com/ib2vdoCif32F5l.png" alt="create-box" /></p>
+
+<p><code>Create Box</code> e:</p>
+
+<p><img src="http://i.minus.com/iGeyT4i1ZXK8o.png" alt="provisioning" /></p>
+
+<p>Na página de visualização de seus boxes, selecione o box recém-criado e clique
+em <code>IDE</code>. A tela que você deve ver é uma como a que segue:</p>
+
+<p><img src="http://i.minus.com/i8a2bakwQNj7m.png" alt="IDE" /></p>
+
+<p>Ou seja: um editor de texto muito parecido com o Sublime Text e um console &mdash;
+tudo o que precisamos para começar a desenvolver! \o/ Rodei alguns comandos
+pra dar uma mostra do que temos ao nosso dispor:</p>
+
+<p><code>bash
+$ cd workspace
+$ ruby -v
+$ rails -v
+$ rvm -v
+</code></p>
+
+<p>Mas não vamos começar do zero. Clone o código do <a href="https://github.com/embs/bdance">BDance</a>
+&mdash; projeto que deve ser assunto de uma postagem em breve.</p>
+
+<p><code>bash
+$ git clone https://github.com/embs/bdance.git # o git também já está instalado
+</code></p>
+
+<p>Fiz o clone via HTTPS mas dá pra configurar chaves SSH no Nitrous pra permitir
+o clone via SSH (não testei isso ainda). Dê um <code>cd</code> para o diretório criado pelo
+comando <code>git clone</code> e bote o negócio pra rodar!</p>
+
+<p><code>bash
+$ bundle                # instala dependências
+$ rake db:create:all       # cria bases de dados
+$ rake db:migrate          # cria tabelas
+$ rake bootstrap:all    # povoa base de dados com informações fakes (ou quase isso)
+$ rails s
+</code></p>
+
+<p>Não encane se o <code>rake bootstrap:all</code> não rolar. Fiz isso hoje e não sei qual
+será o seu futuro&hellip; Uma vez que o servidor Rails estiver rodando, clique (lá
+no menu do topo da página) em <code>Preview</code> e selecione <code>Port 3000</code> (que é a porta
+utilizada pelo servidor Rails por padrão).</p>
+
+<p>Agora é só brincar com a aplicação Rails hosteada no Nitrous e descobrir outros
+serviços que a plataforma oferece. Pense num negócio arretado!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Como Utilizar Issues Do Github]]></title>
+    <link href="http://embs.blog.br/blog/2013/02/20/como-utilizar-issues-do-github/"/>
+    <updated>2013-02-20T19:19:40-03:00</updated>
+    <id>http://embs.blog.br/blog/2013/02/20/como-utilizar-issues-do-github</id>
+    <content type="html"><![CDATA[<p>Pessoal,</p>
+
+<p>o nosso repositório no Github possui uma seção muito importante em qualquer projeto de desenvolvimento de software: a seção de issues. Issues são, basicamente, questões do projeto que podem assumir dois estados: aberta (open) ou fechada (closed).</p>
+
+<p>No Github, a cada issue são associadas labels que indicam do que ela trata. Por exemplo: uma issue com título &ldquo;Corrigir estilo do botão de logar&rdquo; pode ser associada com as labels &ldquo;front-end&rdquo; e &ldquo;bug&rdquo; &mdash; já que, claramente, trata-se de um bug no front-end do projeto.</p>
+
+<!-- more -->
+
+
+<p>As labels são completamente customizáveis &mdash; isto é, podemos criá-las, editá-las ou removê-las, além de associar uma cor a cada uma delas. Segue uma descrição de cada uma das labels existentes atualmente em nosso repositório:</p>
+
+<ul>
+<li>Bug: bug;</li>
+<li>Enhancement: melhoria. Rotula issues que se referem a funcionalidades que <em>já estão implementadas</em> mas podem ser melhoradas;</li>
+<li>Front-end: issues relacionados à implementação do front-end (HTML, CSS e Javascript);</li>
+<li>Back-end: issues relacionados à implementação do back-end (controladores, modelos e tudo o mais que for RubyOnRails-specific);</li>
+<li>Duplicate: usada para quando, por engano, issues são criadas para questões do projeto que já possuem issue;</li>
+<li>Feature: implementação de nova funcionalidade;</li>
+<li>Invalid: nunca usei. Deve ser pra quando um issue é criado por engano ou pra quando um issue é criado e depois se constata que não é uma questão do projeto válida (que deve ser levada em conta);</li>
+<li>Question: usada para issues referentes a dúvidas específicas sobre alguma coisa do projeto. Ex.: uma issue &ldquo;Será que não deveríamos usar o MongoDB como nosso banco de dados?&rdquo; pode ser rotulada com a label &ldquo;question&rdquo;;</li>
+<li>Wontfix: rotula issues que não serão resolvidas;</li>
+</ul>
+
+
+<p>Além disso, issues podem ser atribuídas a um colaborador do projeto (responsável por resolvê-la, isto é, fechá-la ou tratar dos meios para que ela seja fechada, vulgo mandar alguém fazer) e podem ser associadas a um milestone do projeto. Milestones são utilizados quando há prazos estimados para lançamento de versões &mdash; algo que foge do escopo desta mensagem e que não utilizaremos ao menos por enquanto.</p>
+
+<p>Estou criando issues à medida em que encontro possibilidades factíveis para tal. Quem quiser acompanhar e colaborar, basta fazer isso através da nossa seção de issues no Github.</p>
+
+<p>Abraços!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Documentação Automática De Haskell Com Haddock]]></title>
+    <link href="http://embs.blog.br/blog/2012/03/17/documentacao-automatica-de-haskell-com-haddock/"/>
+    <updated>2012-03-17T18:43:17-03:00</updated>
+    <id>http://embs.blog.br/blog/2012/03/17/documentacao-automatica-de-haskell-com-haddock</id>
+    <content type="html"><![CDATA[<p>E aí!</p>
+
+<p>O <a href="http://www.haskell.org/haddock/">Haddock</a> é uma ferramenta de geração
+automática de documentação para código Haskell. Atualmente, apesar de eventuais
+bugs e dificuldades de utilização, ele está sendo mantido por seus idealizadores.
+Quem utiliza GHC provavelmente já dispõe do comando <code>&gt; haddock</code>.</p>
+
+<p>Depois de labutar um bocado, consegui gerar documentação em formato HTML a partir
+de meu código Haskell.</p>
+
+<!-- more -->
+
+
+<ul>
+<li>O código
+```haskell
+&mdash; | &lsquo;Primos&rsquo; agrega funções relacionadas aa primalidade dos numerais.
+module Primos where
+{
+&mdash; | A função &lsquo;crivo&rsquo; recebe um número maior que zero e retorna uma lista de Int com todos os números primos até n. Ela utiliza a função &lsquo;ehPrimo&rsquo; para descobrir se um número é primo. :)
+;
+crivo :: Int &ndash;> [Int];
+crivo n = if n &lt; 2 then [] else [y | y &lt;&ndash; [2..n], ehPrimo y];</li>
+</ul>
+
+
+<p>&mdash; | &lsquo;ehPrimo&rsquo; recebe um número inteiro maior que zero e retorna True se ele for primo ou False caso contrário.
+;
+ehPrimo :: Int &ndash;> Bool;
+ehPrimo 1 = False;
+ehPrimo n = (null [y | y &lt;&ndash; [1..(truncate(sqrt (fromIntegral n)))], n <code>mod</code> y == 0, y /= n, y /= 1]);
+}
+<code>
+* O comando
+</code>bash
+$ mkdir HaddockDoc
+$ haddock -h -o HaddockDoc/ Primos.hs
+```</p>
+
+<ul>
+<li>O Resultado</li>
+</ul>
+
+
+<p>Você vê abrindo o index.html na nova pasta HaddockDoc</p>
+
+<p>Valeu!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Instalando Sublime Text 2 No Ubuntu]]></title>
+    <link href="http://embs.blog.br/blog/2012/03/17/instalando-sublime-text-2-no-ubuntu/"/>
+    <updated>2012-03-17T18:36:07-03:00</updated>
+    <id>http://embs.blog.br/blog/2012/03/17/instalando-sublime-text-2-no-ubuntu</id>
+    <content type="html"><![CDATA[<p>Oi, pessoal!</p>
+
+<p>Segue uma dica de como instalar o Sublime Text 2 [<a href="http://www.sublimetext.com/">http://www.sublimetext.com/</a>]
+no Ubuntu. Um colega de trabalho utiliza o editor de texto em seu ambiente e me
+recomendou. À primeira vista, me pareceu uma ferramenta esplêndida!</p>
+
+<ul>
+<li>Adicione o repositório extra-oficial do editor de texto
+<code>bash
+$ sudo apt-add-repository ppa:webupd8team/sublime-text-2
+</code></li>
+<li>Atualize os repositórios
+<code>bash
+$ sudo apt-get update
+</code></li>
+<li>Instalação
+<code>bash
+$ sudo apt-get install sublime-text-2
+</code></li>
+</ul>
+
+
+<p>Fonte: <a href="http://www.zerokol.com/2012/01/instalando-sublime-text-2-no-ubuntu-via.html">http://www.zerokol.com/2012/01/instalando-sublime-text-2-no-ubuntu-via.html</a></p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,375 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Guia Rápido Para Instalação E Configuração Do PostgreSQL - Título do Blog</title>
+  <meta name="author" content="embs">
+
+  
+  <meta name="description" content="Um Pouco de Blábláblá Ontem eu tive minha primeira experiência (pra valer) de utilização do PuppyLinux [1][2]. Quis experimentar o S.O. por que as &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://embs.blog.br/blog/2013/03/02/guia-rapido-para-instalacao-e-configuracao-do-postgresql">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/blog/atom.xml" rel="alternate" title="Título do Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Título do Blog</a></h1>
+  
+    <h2>Subtítulo do blog com ponto no final.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/blog/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:embs.blog.br" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Arquivos</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Guia Rápido Para Instalação E Configuração Do PostgreSQL</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-02T19:26:45-03:00" pubdate data-updated="true"> 2/03/2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h3>Um Pouco de Blábláblá</h3>
+
+<p>Ontem eu tive minha primeira experiência (pra valer) de utilização do PuppyLinux [1][2]. Quis experimentar o S.O. por que as máquinas do Centro de Informática tolhem completamente o usuário comum (leia-se aluno) quanto à instalação de ferramentas e, desenvolvendo um projeto RoR atualmente, preciso instalar várias delas.</p>
+
+<p>A ideia inicial é, portanto, rodar um ambiente de desenvolvimento Ruby on Rails direto de um pendrive com o S.O. PuppyLinux. Nesta postagem não abordarei o processo completo de setup do ambiente (que me custou a tarde e a noite de ontem) mas apenas uma das partes &mdash; supostamente &mdash; mais laboriosas: a instalação (na mão, é claro) do PostgreSQL.</p>
+
+<!-- more -->
+
+
+<h3>1º Passo: Download</h3>
+
+<p>A página de download do Postgres fornece binários pré-compilados para vários S.O.s. No meu caso, pra instalar no Puppy, baixei o fonte desta página. A versão que escolhi foi a 9.1.7 [3].</p>
+
+<h3>2º Passo: Compilar e instalar</h3>
+
+<p>Descompactação:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>tar xvjf postgresql-9.1.7.tar.bz2
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Mudar para o diretório novo:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span><span class="nb">cd </span>postgresql-9.1.7/
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Preparar instalação:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>./configure
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>e</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>gmake
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Mudar para usuário super:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>su
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Instalar: asd</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># gmake install</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>3º Passo: Configurar e rodar</h3>
+
+<p>Criar o usuário (no Linux) &lsquo;postgres&rsquo;:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># adduser postgres</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Criar o diretório onde ficarão os arquivos do BD:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># mkdir /usr/local/pgsql/data</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Dar permissão ao usuário postgres:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># chown postgres /usr/local/pgsql/data</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Mudar para usuário postgres:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># su - postgres</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Iniciar o banco:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># /usr/local/pgsql/bin/initdb -D /usr/local/pgsql/data</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Iniciar o processo do Postgres:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># /usr/local/pgsql/bin/postgres -D /usr/local/pgsql/data &gt;logfile 2&gt;&amp;1 &amp;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>4º Passo: Testar a criação de um banco</h3>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># /usr/local/pgsql/bin/createdb test</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>e, para acessar o banco:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># /usr/local/pgsql/bin/psql test</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>5º Post-Install: Linkar comandos e criar um outro usuário</h3>
+
+<p>Não sei se você percebeu mas, para rodar os comandos do postgres nas linhas de comando anteriores, precisamos utilizar o caminho completo para o diretório onde o comando se encontra. Isso é um saco. Pra resolver, criei links simbólicos para todos os comandos presentes em &ldquo;/usr/local/psql/bin/psql&rdquo;. Assim:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># for f in $(ls -d /usr/local/pgsql/bin/*); do ln -s $f /usr/local/bin; done</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Agora só falta uma coisa: criar um usuário do Postgres com o nome do seu usuário Linux. Saia do usuário super (com um simples &lsquo;exit&rsquo;) e comande:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>sudo -u postgres createuser --superuser <span class="nv">$USER</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>E finalmente, para configurar uma senha para seu novo usuário, acesse a ferramenta de linha de comando do Postgres:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>sudo -u postgres psql
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>e (substitua $USER pelo nome de seu usuário Linux)</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">postgres</span><span class="o">=</span><span class="c"># \password $USER</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Beleza. Agora você já pode acessar o Posgres com o seu usuário e, no caso de estar desenvolvendo um projeto Rails, configurar o database.yml com seus dados de usuário e senha.</p>
+
+<h3>Referências</h3>
+
+<ul>
+<li>[1] <a href="http://puppylinux.com">http://puppylinux.com</a></li>
+<li>[2] <a href="http://puppylinux.org">http://puppylinux.org</a></li>
+<li>[3] <a href="http://ftp.postgresql.org/pub/source/v9.1.7/postgresql-9.1.7.tar.bz2">http://ftp.postgresql.org/pub/source/v9.1.7/postgresql-9.1.7.tar.bz2</a></li>
+<li>[4] <a href="http://www.postgresql.org/docs/9.0/static/install-short.html">http://www.postgresql.org/docs/9.0/static/install-short.html</a></li>
+<li>[5] <a href="http://www.commandlinefu.com/commands/view/1225/symlink-all-files-from-a-base-directory-to-a-target-directory">http://www.commandlinefu.com/commands/view/1225/symlink-all-files-from-a-base-directory-to-a-target-directory</a></li>
+</ul>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Postado por <span class="fn">embs</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-02T19:26:45-03:00" pubdate data-updated="true"> 2/03/2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/banco-de-dados/'>banco de dados</a>, <a class='category' href='/blog/categories/configuracao/'>configuração</a>, <a class='category' href='/blog/categories/instalacao/'>instalação</a>, <a class='category' href='/blog/categories/linux/'>linux</a>, <a class='category' href='/blog/categories/passo-a-passo/'>passo-a-passo</a>, <a class='category' href='/blog/categories/postgresql/'>postgresql</a>, <a class='category' href='/blog/categories/pt-br/'>pt_BR</a>, <a class='category' href='/blog/categories/puppy/'>puppy</a>, <a class='category' href='/blog/categories/puppylinux/'>puppylinux</a>, <a class='category' href='/blog/categories/tutorial/'>tutorial</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://embs.blog.br/blog/2013/03/02/guia-rapido-para-instalacao-e-configuracao-do-postgresql/" data-via="" data-counturl="http://embs.blog.br/blog/2013/03/02/guia-rapido-para-instalacao-e-configuracao-do-postgresql/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/02/20/como-utilizar-issues-do-github/" title="Previous Post: Como Utilizar Issues do Github">&laquo; Como Utilizar Issues do Github</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2013/03/07/como-fazer-deploy-de-aplicacoes-rails-no-heroku/" title="Next Post: Como Fazer Deploy de Aplicações Rails no Heroku">Como Fazer Deploy de Aplicações Rails no Heroku &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Postagens Recentes</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/03/18/uma-introducao-a-projetos-de-codigo-livre-e-aberto/">Uma Introdução a Projetos De Código Livre E Aberto</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/03/18/redu-plus-open-source-equals-open-redu/">Redu + Open Source = Open Redu</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/01/21/pro-inferno-com-configuracao-de-ambiente-de-desenvolvimento/">Pro Inferno Com Configuração De Ambiente De Desenvolvimento!</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/29/recife-pirates-x-scorpions-de-natal/">Recife Pirates X Scorpions De Natal</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/25/gerenciamento-de-times/">Gerenciamento De Times</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - embs -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
