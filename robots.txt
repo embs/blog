@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://embs.blog.br/sitemap.xml 
