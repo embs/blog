@@ -1,10 +1,8 @@
-title: ~/embs/blog
-email: edmatheus.santana@gmail.com
+title: Matheus Santana's blog
+email: embs@cin.ufpe.br
 description: ""
 baseurl: "/blog"
 url: "http://embs.io"
-twitter_username: embs
-github_username:  embs
 
 # Build settings
 markdown: kramdown
