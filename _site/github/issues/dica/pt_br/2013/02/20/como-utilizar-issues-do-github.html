@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Welcome to Jekyll!</title>
+    <title>Como Utilizar Issues do Github</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" href="/blog/css/main.css">
-    <link rel="canonical" href="http://localhost:4000/blog/jekyll/update/2015/11/25/welcome-to-jekyll.html">
+    <link rel="canonical" href="http://localhost:4000/blog/github/issues/dica/pt_br/2013/02/20/como-utilizar-issues-do-github.html">
 </head>
 
 
@@ -56,25 +56,38 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Welcome to Jekyll!</h1>
-    <p class="post-meta">Nov 25, 2015</p>
+    <h1 class="post-title">Como Utilizar Issues do Github</h1>
+    <p class="post-meta">Feb 20, 2013</p>
   </header>
 
   <article class="post-content">
-    <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve --watch</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+    <p>Pessoal,</p>
 
-<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p>o nosso repositório no Github possui uma seção muito importante em qualquer projeto de desenvolvimento de software: a seção de issues. Issues são, basicamente, questões do projeto que podem assumir dois estados: aberta (open) ou fechada (closed).</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p>No Github, a cada issue são associadas labels que indicam do que ela trata. Por exemplo: uma issue com título “Corrigir estilo do botão de logar” pode ser associada com as labels “front-end” e “bug” – já que, claramente, trata-se de um bug no front-end do projeto.</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<!-- more -->
 
-<p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://github.com/jekyll/jekyll-help">Jekyll’s dedicated Help repository</a>.</p>
+<p>As labels são completamente customizáveis – isto é, podemos criá-las, editá-las ou removê-las, além de associar uma cor a cada uma delas. Segue uma descrição de cada uma das labels existentes atualmente em nosso repositório:</p>
 
+<ul>
+  <li>Bug: bug;</li>
+  <li>Enhancement: melhoria. Rotula issues que se referem a funcionalidades que <em>já estão implementadas</em> mas podem ser melhoradas;</li>
+  <li>Front-end: issues relacionados à implementação do front-end (HTML, CSS e Javascript);</li>
+  <li>Back-end: issues relacionados à implementação do back-end (controladores, modelos e tudo o mais que for RubyOnRails-specific);</li>
+  <li>Duplicate: usada para quando, por engano, issues são criadas para questões do projeto que já possuem issue;</li>
+  <li>Feature: implementação de nova funcionalidade;</li>
+  <li>Invalid: nunca usei. Deve ser pra quando um issue é criado por engano ou pra quando um issue é criado e depois se constata que não é uma questão do projeto válida (que deve ser levada em conta);</li>
+  <li>Question: usada para issues referentes a dúvidas específicas sobre alguma coisa do projeto. Ex.: uma issue “Será que não deveríamos usar o MongoDB como nosso banco de dados?” pode ser rotulada com a label “question”;</li>
+  <li>Wontfix: rotula issues que não serão resolvidas;</li>
+</ul>
+
+<p>Além disso, issues podem ser atribuídas a um colaborador do projeto (responsável por resolvê-la, isto é, fechá-la ou tratar dos meios para que ela seja fechada, vulgo mandar alguém fazer) e podem ser associadas a um milestone do projeto. Milestones são utilizados quando há prazos estimados para lançamento de versões – algo que foge do escopo desta mensagem e que não utilizaremos ao menos por enquanto.</p>
+
+<p>Estou criando issues à medida em que encontro possibilidades factíveis para tal. Quem quiser acompanhar e colaborar, basta fazer isso através da nossa seção de issues no Github.</p>
+
+<p>Abraços!</p>
 
   </article>
 

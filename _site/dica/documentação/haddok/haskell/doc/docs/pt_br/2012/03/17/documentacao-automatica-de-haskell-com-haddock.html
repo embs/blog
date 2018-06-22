@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Welcome to Jekyll!</title>
+    <title>Documentação Automática de Haskell com Haddock</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" href="/blog/css/main.css">
-    <link rel="canonical" href="http://localhost:4000/blog/jekyll/update/2015/11/25/welcome-to-jekyll.html">
+    <link rel="canonical" href="http://localhost:4000/blog/dica/documenta%C3%A7%C3%A3o/haddok/haskell/doc/docs/pt_br/2012/03/17/documentacao-automatica-de-haskell-com-haddock.html">
 </head>
 
 
@@ -56,25 +56,54 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Welcome to Jekyll!</h1>
-    <p class="post-meta">Nov 25, 2015</p>
+    <h1 class="post-title">Documentação Automática de Haskell com Haddock</h1>
+    <p class="post-meta">Mar 17, 2012</p>
   </header>
 
   <article class="post-content">
-    <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve --watch</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+    <p>E aí!</p>
 
-<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p>O <a href="http://www.haskell.org/haddock/">Haddock</a> é uma ferramenta de geração
+automática de documentação para código Haskell. Atualmente, apesar de eventuais
+bugs e dificuldades de utilização, ele está sendo mantido por seus idealizadores.
+Quem utiliza GHC provavelmente já dispõe do comando <code class="highlighter-rouge">&gt; haddock</code>.</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p>Depois de labutar um bocado, consegui gerar documentação em formato HTML a partir
+de meu código Haskell.</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<!-- more -->
 
-<p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://github.com/jekyll/jekyll-help">Jekyll’s dedicated Help repository</a>.</p>
+<ul>
+  <li>O código
+```haskell
+– | ‘Primos’ agrega funções relacionadas aa primalidade dos numerais.
+module Primos where
+{
+– | A função ‘crivo’ recebe um número maior que zero e retorna uma lista de Int com todos os números primos até n. Ela utiliza a função ‘ehPrimo’ para descobrir se um número é primo. :)
+;
+crivo :: Int -&gt; [Int];
+crivo n = if n &lt; 2 then [] else [y | y &lt;- [2..n], ehPrimo y];</li>
+</ul>
 
+<p>– | ‘ehPrimo’ recebe um número inteiro maior que zero e retorna True se ele for primo ou False caso contrário.
+;
+ehPrimo :: Int -&gt; Bool;
+ehPrimo 1 = False;
+ehPrimo n = (null [y | y &lt;- [1..(truncate(sqrt (fromIntegral n)))], n <code class="highlighter-rouge">mod</code> y == 0, y /= n, y /= 1]);
+}</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* O comando
+```bash
+$ mkdir HaddockDoc
+$ haddock -h -o HaddockDoc/ Primos.hs
+</code></pre></div></div>
+
+<ul>
+  <li>O Resultado</li>
+</ul>
+
+<p>Você vê abrindo o index.html na nova pasta HaddockDoc</p>
+
+<p>Valeu!</p>
 
   </article>
 

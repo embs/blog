@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Welcome to Jekyll!</title>
+    <title>From Octopress to Jekyll!</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" href="/blog/css/main.css">
-    <link rel="canonical" href="http://localhost:4000/blog/jekyll/update/2015/11/25/welcome-to-jekyll.html">
+    <link rel="canonical" href="http://localhost:4000/blog/jekyll/octopress/blogging/en/git/github/2015/11/26/from-octopress-to-jekyll.html">
 </head>
 
 
@@ -56,24 +56,61 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Welcome to Jekyll!</h1>
-    <p class="post-meta">Nov 25, 2015</p>
+    <h1 class="post-title">From Octopress to Jekyll!</h1>
+    <p class="post-meta">Nov 26, 2015</p>
   </header>
 
   <article class="post-content">
-    <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve --watch</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+    <p><a href="https://github.com/embs/embs-blog.github.io/commit/e2bc5b28d6e2d6059f1d9db4b8d39dfba9190797">Several months ago</a> I was pretty amazed with the ability of
+blogging through a static pages generator that was open source and had a nice
+name: Octopress. Some time later I am still quite delighted with another
+analogous tool that is also open source but has a less fancy name: Jekyll.</p>
 
-<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p>Jekyll is the foundation for Octopress and what made me change to it at first
+was that <a href="https://help.github.com/articles/using-jekyll-with-pages/">GitHub encourages it</a>. Such encouragement comes along
+with the promise of painless integration with GitHub pages.</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p>I’ve took an while without updating the Octopress blog and get back to the labor
+seemed pretty tough – since I wanted to spend no time with configuration nor
+stuff like that. After acknowledging GitHub inclination to Jekyll I’ve also read
+<a href="https://lauris.github.io/blogging/2014/08/16/jekyll-vs-octopress/">a blog post comparing the two blogging tools</a> and
+<a href="http://octopress.org/2015/01/15/octopress-3.0-is-coming/">this entry in the Octopress blog</a> which is not that comforting.</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<p>So the choice was made. Time to move on and get the life going on again.</p>
 
-<p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://github.com/jekyll/jekyll-help">Jekyll’s dedicated Help repository</a>.</p>
+<h1 id="moving-out">Moving out</h1>
+
+<p>First thing was following up the step-by-step guide for deploying Jekyll with
+GitHub pages provided by GitHub. Easy peasy.</p>
+
+<p>It was sad to verify that my CNAME configuration messed with the CSS, which had
+to be also statically provided. <a href="https://github.com/embs/blog/commit/3e141990f4ae1ba63683830e2446b8ef99ca9409">Configuring the Jekyll options</a>
+did the trick and style rules were finally working. I’ve had already suffered
+a lot with that on Octopress and this suffering probably done my life easier nowadays.</p>
+
+<p>Next thing was to import the old posts from the former Octopress blog. I was
+annoyed by the fact that I couldn’t find the markdown files anymore. The only thing
+that occurred to me was that GitHub neglected the posts since they lived in a
+folder named <code class="highlighter-rouge">_posts</code>. (I’ve imaginatively created this rule of GitHub behavior)</p>
+
+<p>After coming and going around a lot and trying an <a href="https://domchristie.github.io/to-markdown/">HTML to Markdown</a>
+tool, I’ve finally rediscovered that there was a branch named <code class="highlighter-rouge">source</code> in the
+Octopress repository – and all the markdown stuff was still there!</p>
+
+<p>Since I’ve used the same git repository to introduce the new Jekyll blog, the
+rediscovering made me seek for and <a href="http://nicolasgallagher.com/git-checkout-specific-files-from-another-branch/">find</a> one awesome git feature that
+I wasn’t aware of: checkout files from a different branch.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git checkout source -- source/_posts
+</code></pre></div></div>
+
+<p>And my posts were mine again!</p>
+
+<h1 id="moreover">Moreover</h1>
+
+<p>Another thing that impressed me is how seamlessly is the generation of HTML from
+the markdown files. That is probably accomplished by the <a href="https://github.com/embs/blog/commit/f496d33372a5ef0f5a9c10add69b2894f825c4d5#diff-8b7db4d5cc4b8f6dc8feb7030baa2478R3">github-pages gem</a>
+but I haven’t dived deep on it yet. Maybe another time.</p>
 
 
   </article>
