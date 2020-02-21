@@ -1,0 +1,152 @@
+---
+layout: post
+title:  "2019 in Notes"
+date:   2020-02-21 09:05:00
+---
+This is the first mobile note I transform into a blog post and I'm really happy
+for this finally happenning after four long years without any posting.
+
+![2019-notes-5](https://user-images.githubusercontent.com/1200033/75034819-cd9d1580-548c-11ea-9726-468b248d0a09.png)
+
+The idea of writing about what I've learned and gone through in 2019 was running
+in circles in my mind long before I took the courage to jot it down in my mobile
+device. This post isn't the concretization of such plan, though. It's more of a
+"do the easier first, than the harder later" kind of practice. Who knows when
+the "2019 Lessons" is coming?
+
+I just noticed a bunch of interesting memories in the smartphone's notes which I
+could use to reflect upon 2019 experiences. The very owning of the device
+itself, which was a gift from my father, is one of these memories.
+
+![2019-notes-1](https://user-images.githubusercontent.com/1200033/75034293-ae51b880-548b-11ea-89a8-17d83059cdaf.png)
+
+The first note is from 2019 January 18th. It was probably created at the time I
+set the smartphone up for the first time -- since my birthday is January 16th.
+
+The next one, from March 3rd, is my uncle's credentials for some service I'd
+like to share with him. He has such an important role in my life and I'm so
+pleased when someone says I'm just like him -- which often happens.
+
+The next, Match 20th, is a much less pleasant one. It is the memory of a quite
+unpleasant road trip from Caruaru to Recife -- which is a quick one (~2h) but
+can be tiresome and demand a lot of patience. Well, maybe I should have been
+more patient this day.
+
+The one from April 13th isn't much pleasant neither. It is of great importance,
+though, and probably the one from which I should learn the most, in a
+professional perspective. This is the notes from a colleague's feedback. Much of
+it I'm still to digest and put into practice. I'll need more time and maybe
+another post to go through it.
+
+The one from April 20th, which in English would read
+
+> Bluetooth adapter
+
+is probably a reminder that I should get one adapter for my laptop. I got a
+bluetooth headphone some time earlier and it was frustrating to find that I
+wouldn't be able to use it with my personal laptop since it does not count with
+hardware for supporting bluetooth communication.
+
+I remember I got the feedback in April 13th in a call while using the headphones
+connected to the smartphone via bluetooth, though.
+
+The one from April 21st is probably a reminder that I should get my "worker
+documentation" (I'm not sure what the proper English expression should be) ready
+for switching jobs, which I intended to do soon. This job switch is something
+that will have great prevalence in the post about the lessons learned in 2019
+and I even shall create an entire "Job Switching" post.
+
+It is also related to the April 13th's feedback since I asked for the feedback
+'cause I was in the imminence of switching jobs.
+
+Next follows a series of notes taken while planning a travel to Salvador and
+also while already there. They comprise the time span from April 22nd to April
+24th.
+
+![2019-notes-2](https://user-images.githubusercontent.com/1200033/75034355-d214fe80-548b-11ea-878f-2f4f6744deaa.png)
+
+These are mostly notes regarding my father's health. I'm constantly trying to
+imagine new ways by which I could help him to take better care of himself and
+also feeling sorry for not being closer, as he lives in Petrolina and I've been
+in Recife for almost 10 years now.
+
+From these notes I must also acknowledge the importance my aunt has in my life.
+She told many of the words which somehow ened up written onto these notes. She
+also provided us with infrastructural needs for the trip and all the motivation
+needed so we could go for more quality of life, or at least the hope of it.
+
+The next note, from April 26th, regards a reminder that I should send some
+feedback to some folks in a company I really admire. No worries, I did it. Phew!
+I remember talking to them while I was in Salvador still.
+
+![2019-notes-3](https://user-images.githubusercontent.com/1200033/75034453-fe307f80-548b-11ea-9762-2b17ca14e45c.png)
+
+This "give feedback" reminder reminds me of how important feedback is and how
+many times I wanted to give or receive feedback but did not. It also reminds me
+of the importance the companies in whose recruitment processes I've participated
+have in my life. These times as a recruitee are quite intense and enriching. I
+shall always keep a recruitee and also write more about this kind of process, in
+which I've took part as both a recruiter and a recruitee as well.
+
+The notes from May 2nd are probably due to some bureaucratic paperwork related
+to my ingress in the lovely Guava team. Dunno if there's anything interesting to
+get out of these. Maybe that these nomenclatures we humans use to define what we
+do (e.g., software engineer, architect engineer, IT analyst) are so crazy and
+many times completely nonsensical.
+
+I really just don't know what I am and I'm not sure this is a bad thing. I
+didn't know what I was becoming into when I touch a PC keyboard for the first
+time at the age of 8. I hoped to discover what I was supposed to be after
+graduating college. Now, after almost 10 years of profession, I'm even more
+confused about these labels. Shame on me, probably.
+
+The notes from May 11th are the traits I'd like my ideal workplace to have, if I
+recall correctly. Many of them were borrowed from Guava's workplace itself.
+These are (not only the Guava's):
+
+- A coffee machine
+- Growth mindset
+- Automated tests
+- Quality
+
+> They may take our lives but they won't take our quality
+
+which is borrowed (or stolen? I should even ask if I'm supposed to disclose
+this) from Guava's manifesto.
+
+There are other ones in the next page:
+
+![2019-notes-4](https://user-images.githubusercontent.com/1200033/75034500-16080380-548c-11ea-9e26-5ffb4560a926.png)
+
+- Love S2
+- Friendship
+- Fun
+- Pragmatism
+- Punctuality
+- Assiduity
+- Fun domain
+
+I should get the time to go through each one of these later.
+
+The notes set from the next day, May 12th, be it a coincidence or not, are some
+core values I'd like to nurture for life:
+
+- Humility
+- Simplicity
+- Honor
+- Excellence
+- Sensibility
+
+I thought of many others but decided to stick to only 5 so I could focus on
+them. Now, almost one year later, I still think these are the top 5 I'd like to
+nurture the most.
+
+I remember jotting down these core values while attending a mass. I'm definitely
+in doubt about "mass" being what I really want to say here but this is the best
+option I could get from Google Translator, sorry. By mass I mean a kind of
+religious ceremony which takes place inside a catholic church. That mass was
+particularly messy and fruitful. :)
+
+Hopefully next year I won't have only a bunch of notes but many of them will
+also be turned into blog posts (or even some talks, who knows?) -- the one which
+existed prior to this blog post included.
