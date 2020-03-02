@@ -2,7 +2,7 @@ title: Matheus Santana's blog
 email: embs@cin.ufpe.br
 description: ""
 baseurl: "/blog"
-url: "http://embs.io"
+url: "https://embs.github.io/blog"
 
 # Build settings
 markdown: kramdown
