@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Frevo'N'Play 2024"
+date:   2024-11-09 17:37:00
+---
+Eu queria escrever um texto muito bom aqui mas não vou conseguir. Não vou conseguir por que precisaria ser muito, muito bom mesmo. E mesmo que eu chegasse perto disso as lágrimas não me deixariam terminar. Ele precisa ser bom por que tudo que Ruby, Rails e a comunidade me proporcionaram foi assim: muito bom. Muito bom é pouco. Foi o melhor que eu poderia receber.
+
+Comecei a programar em Ruby em 2012 e ainda consigo sentir na pele todo aquele suor que banhava meu corpo após atravessar à pé a ponte do Recife Antigo para a entrevista de emprego com meu primeiro mentor na linguagem, framework e carreira: Guilherme Cavalcante. Minha gratidão eterna a ele, Juliana Lucena, Tiago Ferreira, André Diniz, Alex Sandro Gomes, saudoso Anderson Duarte e todos do Redu por terem mudado minha vida para muito melhor.
+
+Ao longo desses mais de 10 anos de ofício nunca imaginei que um dia seria "o dono" do Frevo on Rails. Quando Pablo Jorge falou isso durante o nosso último encontro pensei em devolver na lata que não sou o dono, que a comunidade não tem dono e que todos e todas estão convidados a, como eu, arriscar organizar um dos nossos encontros. Mudei de ideia. Eu sou mesmo o dono do Frevo on Rails -- mas não mais que o próprio Pablo. Eu, ele, as 11 pessoas que organizaram e as mais de 50 pessoas que participaram do nosso último encontro são todas tão donas da nossa comunidade quanto nossos fundadores Lailson Bandeira e Guilherme Carvalho. Você também! Se você leu até aqui, estou certo de que também é nosso(a) dono(a).
+
+Não carece de dizer que nosso encontro foi incrivelmente maravilhoso. Nossa comunidade tem mesmo uma capacidade extraordinária e quase sobrenatural de se organizar. Fico feliz por ter contribuído um pouquinho para a retomada dos nossos encontros mas não consigo enfatizar suficientemente sem parecer um completo mentiroso o quanto participar disso tudo tem sido pouco demandante e muito satisfatório. O mérito fica mesmo todo por conta das pessoas que participaram desse evento tão lindo: na organização, apresentação de palestras e comparecimento.
+
+Muito obrigado a Haderson Almeida pela ideia de fazermos um Frevo dentro do Rec'N'Play e pela articulação de tudo o que foi necessário para transformar a ideia em realidade. Muito obrigado a Walter Silva e Raoni Xavier pela produção e divulgação de conteúdo que é tão importante para o sucesso do evento. Muito obrigado a Ana Torchia pela colaboração fundamental na ponte entre organizadores do Frevo e organizadores do Rec'N'Play. Muito obrigado a Ângelo, Daniel, Lucas, Pablo^2 e Walmir por terem dedicado um pouquinho de suas vidas à realização dessas 5 horinhas que são tão transformadoras nas nossas.
+
+Muito obrigado a Elisson Guímel por topar fazer uma introdução à nossa stack para tantas pessoas que participavam de um Frevo on Rails pela primeira vez na vida. Muito obrigado a Silas pela talk tão divertida e enriquecedora. Muito obrigado a Pablo Morato que não só ajudou a organizar o evento como compartilhou conosco sua vivência na nobre missão de ensinar nossa stack no FAP. Muito obrigado à minha amiga Isadora Forte por mais uma vez abrilhantar um de nossos encontros com suas talks sempre interessantes e mão-na-massa. Muito obrigado Brunno Gomes e Walmir que são presenças constantes e muito queridas em nossa comunidade. Muito obrigado a nosso palestrante misterioso Tiago Diniz que também é membro honorário de longa data da nossa comunidade.
+
+Lembremos sempre: Matz é gentil, então nós também somos gentis (MINASWAN)! ❤️ 
+
+Já estou ansioso para nosso próximo encontro!
